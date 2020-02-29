@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <name>
+      MPEG1 - ISO/IEC 11172.Information technology -- Coding of moving pictures and associated audio for digital storage media at up to about 1,5 Mbit/s
+    </name>
+    <desc>
+      Encoding for compressed video bitstreams that may be accompanied by audio, originally developed to store video on media like CDs; later widely used in online environments
+    </desc>
+    <sname>
+      MPEG1
+    </sname>
+    <format>
+      mpeg
+    </format>
+    <extname>
+      mpg
+    </extname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="MPEG1" codec="mpeg1video" >
+        <bitrate value="512,640,720,750,1150,1500,2040,2376,3000,4000,6000" />
+        <framerate value="23.976,24,25,29.97,30" />
+        <framesize value="80x60,96x72,128x96,160x120,176x120,176x144,192x144,240x180,320x200,320x240,352x240,352x288,480x360,720x480,720x576,1280x720,1920x1080,original,custom..." />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="MP2" codec="mp2">
+        <bits_per_sample value="16">
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="Video: MPEG1, 1500 kbps, 29.97 fps;  Audio: MP2, 224 kbps" guid="00000000-3CDD-000B-0000-915B84D90AE7">
+      <video codec="mpeg1video" framesize="original" framerate="29.97" bitrate="1500" aspectratio="Auto"  bitraterange="750,1150,1500,2040,4000" />
+      <audio codec="mp2" bitrate="224" bitraterange="128,192,224,256,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Creative ZEN Vision W -Best Quality(MPEG1, 1150 kbps, 720x480,29.97 fps )" guid="00000000-3CDD-000B-0001-915B84D90AE7">
+      <video codec="mpeg1video" framesize="720x480" framerate="29.97" bitrate="1150" aspectratio="Auto"  bitraterange="512,750,1150,1500,2040" />
+      <audio codec="mp2" bitrate="128" bitraterange="64,96,128,256,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Creative ZEN Vision -Standard Quality(MPEG1, 720 kbps, 480x360,29.97 fps )" guid="00000000-3CDD-000B-0002-915B84D90AE7">
+      <video codec="mpeg1video" framesize="480x360" framerate="29.97" bitrate="720" aspectratio="Auto"  bitraterange="512,640,720,1150,2040" />
+      <audio codec="mp2" bitrate="128" bitraterange="64,96,128,256,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Creative ZEN Vision M -Normal Quality(MPEG1, 640 kbps, 480x360,29.97 fps )" guid="00000000-3CDD-000B-0003-915B84D90AE7">
+      <video codec="mpeg1video" framesize="original" framerate="29.97" bitrate="640" aspectratio="Auto"  bitraterange="512,640,720,1150,2040" />
+      <audio codec="mp2" bitrate="112" bitraterange="64,96,112,192,224" channel="2" sample_rate="44100" />
+    </profile>
+  </profiles>
+
+
+</profileset>

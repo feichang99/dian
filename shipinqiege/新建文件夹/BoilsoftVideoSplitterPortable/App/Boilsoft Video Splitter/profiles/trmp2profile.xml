@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="11">
+  <main>
+    <name>
+      MP2 - MPEG-1 Audio Layer II
+    </name>
+    <desc>
+      a dominant standard for audio broadcasting 
+    </desc>
+    <sname>
+      MP2
+    </sname>
+    <format>
+      mp2
+    </format>
+    <extname>
+      mp2
+    </extname>
+  </main>
+  <Parameter>
+    <audio>
+      <acodec name="MP2" codec="mp2">
+        <bits_per_sample value="16">
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="24000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>  
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+  	<profile name="MP2 - Normal Quality( 44100 Hz, stereo , 192 kbps )" guid="690AD0A8-3CDD-0100-0000-915B84D90AE7">
+      <audio codec="mp2" bitrate="192" bitraterange="64,128,192,224,256" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="MP2 - High Quality( 48000 Hz, stereo , 320 kbps  )" guid="690AD0A8-3CDD-0100-0001-915B84D90AE7">
+      <audio codec="mp2" bitrate="320" bitraterange="64,128,192,256,320" channel="2" sample_rate="48000" />
+    </profile>
+    <profile name="MP2 - Good Quality( 44100 Hz, stereo , 256 kbps )" guid="690AD0A8-3CDD-0004-0002-915B84D90AE7">
+      <audio codec="mp2" bitrate="256" bitraterange="128,192,224,256,320" channel="2" sample_rate="44100" />
+    </profile>  
+    <profile name="MP2 - Low Quality( 44100 Hz, stereo , 128 kbps )" guid="690AD0A8-3CDD-0004-0003-915B84D90AE7">
+      <audio codec="mp2" bitrate="128" bitraterange="64,96,128,224,256" channel="2" sample_rate="44100" />
+    </profile>
+  </profiles>
+   
+
+</profileset>

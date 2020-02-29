@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <name>
+      SVCD - Super Video Compact Disc
+    </name>
+    <desc>
+      a successor to Video CD
+    </desc>
+    <sname>
+      SVCD
+    </sname>
+    <format>
+      svcd
+    </format>
+    <extname>
+      mpg
+    </extname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="MPEG2" codec="mpeg2video">
+        <bitrate value="750,1150,1500,2040,2376" />
+        <framerate value="25,29.97" />
+        <framesize value="480x576,480x480" />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="MP2" codec="mp2">
+        <bits_per_sample value="16">
+          <sample_rate value="44100">
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="SVCD PAL Standard Play( Video: MPEG2,2040 kbps,25 fps;Audio: mp2, 224 kbps )" guid="00000000-3CDD-0006-0000-915B84D90AE7">
+      <video codec="mpeg2video" framesize="480x576" framerate="25" bitrate="2040" aspectratio="Auto"  bitraterange="750,1150,1500,2040,2376" standard="pal"/>
+      <audio codec="mp2" bitrate="224" bitraterange="32,64,128,224,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="SVCD NTSC Standard Play( Video: MPEG2,2040 kbps,29.97 fps;Audio: mp2, 224 kbps )" guid="00000000-3CDD-0006-0001-915B84D90AE7">
+      <video codec="mpeg2video" framesize="480x480" framerate="29.97" bitrate="2040" aspectratio="Auto"  bitraterange="750,1150,1500,2040,2376" standard="ntsc"/>
+      <audio codec="mp2" bitrate="224" bitraterange="32,64,128,224,320" channel="2" sample_rate="44100" />
+    </profile>
+  </profiles>
+
+
+</profileset>

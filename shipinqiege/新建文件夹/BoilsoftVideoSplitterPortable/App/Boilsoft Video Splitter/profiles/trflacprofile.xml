@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="11">
+  <main>
+    <name>
+     FLAC - Free Lossless Audio Codec
+    </name>
+    <desc>
+      an audio format similar to MP3, but lossless
+    </desc>
+    <sname>
+      FLAC
+    </sname>
+    <format>
+      flac
+    </format>
+    <extname>
+      flac
+    </extname>
+  </main>
+  <Parameter>
+    <audio>
+      <acodec name="FLAC" codec="flac">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="11025">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="24000">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>  
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+  	<profile name="FLAC - Normal Quality( 44100 Hz, stereo , 768 kbps )" guid="690AD0A8-3CDD-0102-0000-915B84D90AE7">
+      <audio codec="flac" bitrate="768" bitraterange="768,768,768,768,768" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="FLAC - High Quality( 48000 Hz, stereo , 768 kbps  )" guid="690AD0A8-3CDD-0102-0001-915B84D90AE7">
+      <audio codec="flac" bitrate="768" bitraterange="768,768,768,768,768" channel="2" sample_rate="48000" />
+    </profile>  
+    <profile name="FLAC - Low Quality( 22050 Hz, stereo , 768 kbps )" guid="690AD0A8-3CDD-0102-0002-915B84D90AE7">
+      <audio codec="flac" bitrate="768" bitraterange="768,768,768,768,768" channel="2" sample_rate="22050" />
+    </profile>
+  </profiles>
+   
+
+</profileset>

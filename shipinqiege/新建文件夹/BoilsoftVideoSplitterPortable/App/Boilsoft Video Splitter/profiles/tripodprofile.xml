@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <name>
+      iPodMP4
+    </name>
+    <desc>
+      Widely used video streaming media for iPod
+    </desc>
+    <sname>
+      iPodMP4
+    </sname>
+    <format>
+      ipod
+    </format>
+    <extname>
+      mp4
+    </extname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="XviD" codec="xvid">
+        <bitrate value="384,512,768,800,920,1000,1200,1500,2500" />
+        <framerate value="23.976,24,25,29.97,30" />
+        <framesize value="320x240,480x320,640x480,720x406" />
+        <aspect value="Auto" />
+      </vcodec>
+      <vcodec name="MPEG4" codec="mpeg4">
+        <bitrate value="384,512,768,800,920,1000,1200,1500,2500" />
+        <framerate value="23.976,24,25,29.97,30" />
+        <framesize value="320x240,480x320,640x480,720x406" />
+        <aspect value="Auto" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="MPEG4-AAC" codec="aac">
+        <bits_per_sample value="16">
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="Apple iPod( Xvid,320x240 )" guid="00000000-3CDD-0008-0000-915B84D90AE7">
+      <video codec="xvid" framesize="320x240" framerate="30" bitrate="920" aspectratio="Auto"  bitraterange="512,768,920,1200,1500"  />
+      <audio codec="aac" bitrate="96" bitraterange="32,64,96,128,256" channel="2" sample_rate="48000" />
+    </profile>
+    <profile name="Apple iPod( Xvid,640x480 )" guid="00000000-3CDD-0008-0001-915B84D90AE7">
+      <video codec="xvid" framesize="640x480" framerate="30" bitrate="768" aspectratio="Auto"  bitraterange="384,512,768,1200,1500"  />
+      <audio codec="aac" bitrate="128" bitraterange="32,64,128,192,256" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Apple iPod( MPEG4,320x240 )" guid="00000000-3CDD-0008-0002-915B84D90AE7">
+      <video codec="mpeg4" framesize="320x240" framerate="30" bitrate="920" aspectratio="Auto"  bitraterange="512,768,920,1200,1500"  />
+      <audio codec="aac" bitrate="96" bitraterange="32,64,96,128,256" channel="2" sample_rate="48000" />
+    </profile>
+  </profiles>
+</profileset>

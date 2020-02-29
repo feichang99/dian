@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <name>
+      WMV - Windows Media Video
+    </name>
+    <desc>
+      Widely used for Internet video streaming media
+    </desc>
+    <sname>
+      WMV
+    </sname>
+    <format>
+      wmv
+    </format>
+    <extname>
+      wmv
+    </extname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="Windows Media Video V8" codec="Windows Media Video V8" >
+        <bitrate value="64,96,128,160,196,240,320,384,400,440,480,512,600,640,700,720,768,800,920,1024,1400,1600,2048,4500,7000,8000,9000,12000" />
+        <framerate value="20,23.976,24,25,29.97,30" />
+        <framesize value="80x60,96x72,128x96,160x120,176x120,176x144,192x144,240x180,320x200,320x240,352x288,480x272,640x480,720x480,720x576,1280x720,1920x1080,original,custom..." />
+        <aspect value="Auto" />
+      </vcodec>
+      <vcodec name="Windows Media Video 9" codec="Windows Media Video 9" >
+        <bitrate value="64,96,128,160,196,240,320,384,400,440,480,512,600,640,700,720,768,800,920,1024,1400,1600,2048,4500,7000,8000,9000,12000" />
+        <framerate value="20,23.976,24,25,29.97,30" />
+        <framesize value=" 80x60,96x72,128x96,160x120,176x120,176x144,192x144,240x180,320x200,320x240,352x288,480x272,640x480,720x480,720x576,1280x720,1920x1080,original,custom..." />
+        <aspect value="Auto" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="Windows Media Audio 9.2" codec="Windows Media Audio 9.2">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="5,6,8"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="12"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="11025">
+            <channel value="1" >
+              <bitrate value="8,10"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="10,12,16"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,20"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="16,20"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="20,22,32"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="20"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="24,32,40,48"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="20,32,48"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,64,80,96,128,160,192,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="2" >
+              <bitrate value="63,64,95,96,127,128,160,191,192"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="Video: Windows Media Video V8, 1150 kbps, 29.97 fps;  Audio: Windows Media Audio 9.2, 128 kbps" guid="00000000-3CDD-0007-0000-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="original" framerate="29.97" bitrate="1150" aspectratio="Auto"  bitraterange="512,800,1150,2500,7000"  />
+      <audio codec="Windows Media Audio 9.2" bitrate="128" bitraterange="32,64,128,256,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Video: Windows Media Video 9, 2500 kbps, 29.97 fps;  Audio: Windows Media Audio 9.2, 192 kbps" guid="00000000-3CDD-0007-0001-915B84D90AE7">
+      <video codec="Windows Media Video 9" framesize="original" framerate="29.97" bitrate="2500" aspectratio="Auto"  bitraterange="512,1150,2500,7000,9000"  />
+      <audio codec="Windows Media Audio 9.2" bitrate="192" bitraterange="64,128,192,256,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="HD Video 1080p( Video: Windows Media Video 9, 9000 kbps, 29.97 fps;  Audio: Windows Media Audio 9.2, 192 kbps )" guid="00000000-3CDD-0007-0002-915B84D90AE7">
+      <video codec="Windows Media Video 9" framesize="1920x1080" framerate="29.97" bitrate="9000" aspectratio="Auto"  bitraterange="2048,4500,7000,9000,12000"  />
+      <audio codec="Windows Media Audio 9.2" bitrate="192" bitraterange="64,96,128,160,192" channel="2" sample_rate="48000" />
+    </profile>
+    <profile name="HD Video 720p( Video: Windows Media Video 9, 7000 kbps, 29.97 fps;  Audio: Windows Media Audio 9.2, 128 kbps )" guid="00000000-3CDD-0007-0003-915B84D90AE7">
+      <video codec="Windows Media Video 9" framesize="1280x720" framerate="29.97" bitrate="7000" aspectratio="Auto"  bitraterange="2048,4500,7000,8000,9000"  />
+      <audio codec="Windows Media Audio 9.2" bitrate="128" bitraterange="64,96,128,160,192" channel="2" sample_rate="48000" />
+    </profile>
+    <profile name="Microsoft Zune - Best Quality - (Video: Windows Media Video V8, 920 kbps, 25 fps;  Audio: Windows Media Audio 9.2, 128 kbps)" guid="00000000-3CDD-0007-0004-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="320x240" framerate="25" bitrate="920" aspectratio="Auto"  bitraterange="320,512,920,1150,2500"  />
+      <audio codec="Windows Media Audio 9.2" bitrate="192" bitraterange="32,64,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Microsoft Zune - Normal Quality - (Video: Windows Media Video V8, 440 kbps, 25 fps;  Audio: Windows Media Audio 9.2, 128 kbps)" guid="00000000-3CDD-0007-0005-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="320x240" framerate="25" bitrate="440"  bitraterange="240,320,440,920,1150" aspectratio="Auto" />
+      <audio codec="Windows Media Audio 9.2" bitrate="128" bitraterange="32,64,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Video for Pocket PCS/PDAS - (Video: Windows Media Video V8, 176 kbps, 20 fps;  Audio: Windows Media Audio 9.2, 48 kbps)" guid="00000000-3CDD-0007-0006-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="192x144" framerate="20" bitrate="176"  bitraterange="64,128,176,320,512" aspectratio="Auto" />
+      <audio codec="Windows Media Audio 9.2" bitrate="48" bitraterange="32,48,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Archos AV500/700; 4-series(704,604,504,404) - Hightest Quality (Video: Windows Media Video V8, 920 kbps, 25 fps;  Audio: Windows Media Audio 9.2, 128 kbps)" guid="00000000-3CDD-0007-0007-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="352x288" framerate="25" bitrate="920"  bitraterange="320,512,920,1150,2500" aspectratio="Auto" />
+      <audio codec="Windows Media Audio 9.2" bitrate="128" bitraterange="32,64,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Archos AV500/700; 4-series(704,604,504,404) - Good Quality (Video: Windows Media Video V8, 600 kbps, 25 fps;  Audio: Windows Media Audio 9.2, 128 kbps)" guid="00000000-3CDD-0007-0008-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="352x288" framerate="25" bitrate="600"  bitraterange="320,512,600,920,1150" aspectratio="Auto" />
+      <audio codec="Windows Media Audio 9.2" bitrate="128" bitraterange="32,64,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Archos AV500/700; 4-series(704,604,504,404) - Low Quality (Video: Windows Media Video V8, 400 kbps, 25 fps;  Audio: Windows Media Audio 9.2, 96 kbps)" guid="00000000-3CDD-0007-0009-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="352x288" framerate="25" bitrate="400"  bitraterange="128,240,400,512,920" aspectratio="Auto" />
+      <audio codec="Windows Media Audio 9.2" bitrate="96" bitraterange="32,96,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Creative ZEN Vision W - Highest Quality (Video: Windows Media Video 9, 700 kbps, 25 fps;  Audio: Windows Media Audio 9.2, 192 kbps)" guid="00000000-3CDD-0007-0010-915B84D90AE7">
+      <video codec="Windows Media Video 9" framesize="480x272" framerate="25" bitrate="700"  bitraterange="128,240,320,512,920" aspectratio="Auto" />
+      <audio codec="Windows Media Audio 9.2" bitrate="192" bitraterange="32,64,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Creative ZEN Vision - Good Quality (Video: Windows Media Video V8, 720 kbps, 25 fps;  Audio: Windows Media Audio 9.2, 128 kbps)" guid="00000000-3CDD-0007-0011-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="320x240" framerate="25" bitrate="720"  bitraterange="320,512,720,1024,2048" aspectratio="Auto" guid="00000000-3CDD-000C-000A-915B84D90AE7"/>
+      <audio codec="Windows Media Audio 9.2" bitrate="128" bitraterange="32,64,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Creative ZEN Vision - Normal Quality (Video: Windows Media Video V8, 480 kbps, 25 fps;  Audio: Windows Media Audio 9.2, 128 kbps)" guid="00000000-3CDD-0007-0012-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="320x240" framerate="25" bitrate="480"  bitraterange="196,320,480,720,920" aspectratio="Auto" />
+      <audio codec="Windows Media Audio 9.2" bitrate="128" bitraterange="32,64,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="Epson Multimedia Storage Viewer P3000/P5000 (Video: Windows Media Video V8, 768 kbps, 24 fps;  Audio: Windows Media Audio 9.2, 128 kbps)" guid="00000000-3CDD-0007-0013-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="352x288" framerate="24" bitrate="768"  bitraterange="196,320,480,768,920" aspectratio="Auto" />
+      <audio codec="Windows Media Audio 9.2" bitrate="128" bitraterange="32,64,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="SanDisk Sansa View (Video: Windows Media Video V8, 768 kbps, 30 fps;  Audio: Windows Media Audio 9.2, 128 kbps)" guid="00000000-3CDD-0007-0014-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="352x288" framerate="30" bitrate="768"  bitraterange="196,320,480,768,920" aspectratio="Auto"/>
+      <audio codec="Windows Media Audio 9.2" bitrate="128" bitraterange="64,96,128,160,192" channel="2" sample_rate="48000" />
+    </profile>
+    <profile name="Palm Treo series (Video: Windows Media Video V8, 320 kbps, 25 fps;  Audio: Windows Media Audio 9.2, 128 kbps)" guid="00000000-3CDD-0007-0015-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="352x288" framerate="25" bitrate="320"  bitraterange="196,320,480,768,920" aspectratio="Auto" />
+      <audio codec="Windows Media Audio 9.2" bitrate="128" bitraterange="32,64,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="HP iPaq series (Video: Windows Media Video V8, 240 kbps, 25 fps;  Audio: Windows Media Audio 9.2, 96 kbps)" guid="00000000-3CDD-0007-0016-915B84D90AE7">
+      <video codec="Windows Media Video V8" framesize="320x240" framerate="25" bitrate="240"  bitraterange="196,240,480,768,920" aspectratio="Auto" />
+      <audio codec="Windows Media Audio 9.2" bitrate="96" bitraterange="32,96,128,192,320" channel="2" sample_rate="44100" />
+    </profile>
+  </profiles>
+
+
+</profileset>

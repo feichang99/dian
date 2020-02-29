@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <desc>an optical disc storage media format</desc>
+    <extname>vob</extname>
+    <format>dvd</format>
+    <name>DVD - Digital Video Disc</name>
+    <sname>DVD</sname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="MPEG2" codec="mpeg2video">
+        <bitrate value="1150,2040,2150,2300,2376,3000,4000,4600,5000,6000,6200,8000,9400" />
+        <framerate value="25,29.97" />
+        <framesize value="720x480,720x576" />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="MP2" codec="mp2">
+        <bits_per_sample value="16">
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="AC3" codec="ac3">
+        <bits_per_sample value="16">
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+  	<profile guid="00000000-3CDD-0001-0000-915B84D90AE7" name="DVD - MPEG PS Format - (Video: MPEG2, 6000 kbps, 29.97 fps;  Audio: AC3, 448 kbps)">
+      <video aspectratio="Auto"  bitraterange="3000,4000,5000,6000,8000" bitrate="6000" codec="mpeg2video" framerate="29.97" framesize="720x480" standard="ntsc" />
+      <audio bitrate="448" bitraterange="128,256,320,384,448" channel="2" codec="ac3" sample_rate="48000" />
+    </profile>
+    <profile guid="00000000-3CDD-0001-0001-915B84D90AE7" name="DVD NTSC High Quality( HQ 60/108 min. at 1 DVD/DL DVD Disc )">
+      <video aspectratio="4:3"  bitraterange="3000,4600,6200,8000,9400" bitrate="9400" codec="mpeg2video" framerate="29.97" framesize="720x480" standard="ntsc" />
+      <audio bitrate="224" bitraterange="64,128,224,256,320" channel="2" codec="mp2" sample_rate="48000" />
+    </profile>
+    <profile guid="00000000-3CDD-0001-0002-915B84D90AE7" name="DVD NTSC Good Quality( GQ 90/162 min. at 1 DVD/DL DVD Disc )">
+      <video aspectratio="Auto"  bitraterange="3000,5000,6200,8000,9400" bitrate="6200" codec="mpeg2video" framerate="29.97" framesize="720x480" standard="ntsc" />
+      <audio bitrate="224" bitraterange="64,128,224,256,320" channel="2" codec="mp2" sample_rate="48000" />
+    </profile>
+    <profile guid="00000000-3CDD-0001-0003-915B84D90AE7" name="DVD NTSC Standard Play( SP 120/217 min. at 1 DVD/DL DVD Disc )">
+      <video aspectratio="Auto"  bitraterange="3000,4000,4600,6200,8000" bitrate="4600" codec="mpeg2video" framerate="29.97" framesize="720x480" standard="ntsc" />
+      <audio bitrate="224" bitraterange="64,128,224,256,320" channel="2" codec="mp2" sample_rate="48000" />
+    </profile>
+    <profile guid="00000000-3CDD-0001-0004-915B84D90AE7" name="DVD NTSC Long Play( LP 240/434 min. at 1 DVD/DL DVD Disc )">
+      <video aspectratio="Auto"  bitraterange="1150,2040,2150,2376,4600" bitrate="2150" codec="mpeg2video" framerate="29.97" framesize="720x480" standard="ntsc" />
+      <audio bitrate="224" bitraterange="64,128,224,256,320" channel="2" codec="mp2" sample_rate="48000" />
+    </profile>
+    <profile guid="00000000-3CDD-0001-0005-915B84D90AE7" name="DVD PAL High Quality( HQ 60/108 min. at 1 DVD/DL DVD Disc )">
+      <video aspectratio="Auto"  bitraterange="3000,4600,6200,8000,9400" bitrate="9400" codec="mpeg2video" framerate="25" framesize="720x576" standard="pal" />
+      <audio bitrate="224" bitraterange="64,128,224,256,320" channel="2" codec="mp2" sample_rate="48000" />
+    </profile>
+    <profile guid="00000000-3CDD-0001-0006-915B84D90AE7" name="DVD PAL Good Quality( GQ 90/162 min. at 1 DVD/DL DVD Disc )">
+      <video aspectratio="Auto"  bitraterange="3000,5000,6200,8000,9400" bitrate="6200" codec="mpeg2video" framerate="25" framesize="720x576" standard="pal" />
+      <audio bitrate="224" bitraterange="64,128,224,256,320" channel="2" codec="mp2" sample_rate="48000" />
+    </profile>
+    <profile guid="00000000-3CDD-0001-0007-915B84D90AE7" name="DVD PAL Standard Play( SP 120/217 min. at 1 DVD/DL DVD Disc )">
+      <video aspectratio="Auto"  bitraterange="3000,4000,4600,6200,8000" bitrate="4600" codec="mpeg2video" framerate="25" framesize="720x576" standard="pal" />
+      <audio bitrate="224" bitraterange="64,128,224,256,320" channel="2" codec="mp2" sample_rate="48000" />
+    </profile>
+    <profile guid="00000000-3CDD-0001-0008-915B84D90AE7" name="DVD PAL Long Play( LP 240/434 min. at 1 DVD/DL DVD Disc )">
+      <video aspectratio="Auto"  bitraterange="1150,2040,2150,2376,4600" bitrate="2150" codec="mpeg2video" framerate="25" framesize="720x576" standard="pal" />
+      <audio bitrate="224" bitraterange="64,128,224,256,320" channel="2" codec="mp2" sample_rate="48000" />
+    </profile>
+
+  </profiles>
+
+</profileset>

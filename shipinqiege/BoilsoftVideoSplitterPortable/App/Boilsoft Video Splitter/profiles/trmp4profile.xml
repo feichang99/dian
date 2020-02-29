@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <name>
+      MP4 - MPEG-4 Part 14
+    </name>
+    <desc>
+      the official filename extension for MPEG-4 Part 14 files
+    </desc>
+    <sname>
+      MP4
+    </sname>
+    <format>
+      mp4
+    </format>
+    <extname>
+      mp4
+    </extname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="XviD" codec="xvid">
+        <bitrate value="96,128,160,192,256,300,384,512,640,768,800,1000,1200,1500,2000,2500,8000" />
+        <framerate value="10.000,12.000,15.000,20.000,23.976,24.000,25.000,29.970,30.000" />
+        <framesize value="80x60,96x72,128x96,160x120,176x120,176x144,192x144,240x180,320x200,320x240,352x288,480x320,640x480,720x406,720x480,720x576,1280x720,1920x1080,original,custom..." />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+      <vcodec name="MPEG4" codec="mpeg4">
+        <bitrate value="96,128,160,192,256,300,384,512,640,768,800,1000,1200,1500,2000,2500,8000" />
+        <framerate value="10.000,12.000,15.000,20.000 ,23.976,24.000,25.000,29.970,30.000" />
+        <framesize value="80x60,96x72,128x96,160x120,176x120,176x144,192x144,240x180,320x200,320x240,352x288,480x320,640x480,720x406,720x480,720x576,1280x720,1920x1080,original,custom..." />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="MPEG4-AAC" codec="aac">
+        <bits_per_sample value="16">
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,128,160,192,224,256"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="24000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,128,160,192,224,256"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,128,160,192"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,128,160,192,224,256"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,128,160,192,224,256"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="Video: Xvid, 512 kbps, 29.97 fps;  Audio: MPEG4-AAC, 64 kbps" guid="00000000-3CDD-000C-0000-915B84D90AE7">
+      <video codec="xvid" framesize="original" framerate="29.97" bitrate="512" aspectratio="Auto"  bitraterange="96,256,512,768,1500"  />
+      <audio codec="aac" bitrate="64" bitraterange="32,48,64,96,160" channel="2" sample_rate="24000" />
+    </profile>
+    <profile name="Video: Xvid, 1200 kbps, 29.97fps;  Audio: MPEG4-AAC, 128 kbps" guid="00000000-3CDD-000C-0001-915B84D90AE7">
+      <video codec="xvid" framesize="original" framerate="29.97" bitrate="1200" aspectratio="Auto"  bitraterange="512,800,1200,1500,2500"  />
+      <audio codec="aac" bitrate="128" bitraterange="64,80,128,192,256" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="PC - Standard Quality - ( Xvid, original size, 25fps )" guid="00000000-3CDD-000C-0002-915B84D90AE7">
+      <video codec="xvid" framesize="original" framerate="25" bitrate="1200" aspectratio="Auto"  bitraterange="512,800,1200,1500,2500"  />
+      <audio codec="aac" bitrate="128" bitraterange="64,80,128,192,256" channel="2" sample_rate="44100" />
+    </profile>
+  </profiles>
+</profileset>

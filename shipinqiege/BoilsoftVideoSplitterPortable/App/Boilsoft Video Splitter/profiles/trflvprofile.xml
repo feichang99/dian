@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <desc>Widely used network video streaming media</desc>
+    <extname>flv</extname>
+    <format>flv</format>
+    <name>FLV - Flash Video Format</name>
+    <sname>FLV</sname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="FLV" codec="flv">
+        <bitrate value="128,256,480,512,640,780,920,1200" />
+        <framerate value="5,10,12,15,20,23.976,24,25,29.97,30" />
+        <framesize value="128x96,176x144,320x240,352x288,480x272,640x480,704x576,original,custom..." />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="MP3" codec="mp3">
+        <bits_per_sample value="16">
+          <sample_rate value="11025">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile guid="00000000-3CDD-0003-0000-915B84D90AE7" name="FLV - Best Quality( FLV, 1200 kbps, 25 fps ;  Audio: MP3, 128 kbps )">
+      <video aspectratio="Auto"  bitraterange="480,640,780,920,1200" bitrate="1200" codec="flv" framerate="25" framesize="original" />
+      <audio bitrate="128" bitraterange="64,96,128,224,320" channel="2" codec="mp3" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-0003-0001-915B84D90AE7" name="FLV - Normal Quality( FLV, 920 kbps, 320x240, 20 fps ;  Audio: MP3, 112 kbps )">
+      <video aspectratio="Auto"  bitraterange="480,640,780,920,1200" bitrate="920" codec="flv" framerate="20" framesize="320x240" />
+      <audio bitrate="112" bitraterange="64,96,112,128,224" channel="2" codec="mp3" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-0003-0002-915B84D90AE7" name="FLV - Optimal Quality( FLV, 780 kbps, 352x288, 15 fps ;  Audio: MP3, 64 kbps )">
+      <video aspectratio="Auto"  bitraterange="480,640,780,920,1200" bitrate="780" codec="flv" framerate="15" framesize="352x288" />
+      <audio bitrate="64" bitraterange="32,48,64,96,128" channel="2" codec="mp3" sample_rate="22050" />
+    </profile>
+    <profile guid="00000000-3CDD-0003-0003-915B84D90AE7" name="FLV - Low Quality( FLV, 640 kbps, 320x240, 15 fps ;  Audio: MP3, 48 kbps )">
+      <video aspectratio="Auto"  bitraterange="256,480,640,780,1200" bitrate="640" codec="flv" framerate="15" framesize="320x240" />
+      <audio bitrate="48" bitraterange="32,48,64,80,96" channel="2" codec="mp3" sample_rate="11025" />
+    </profile>
+  </profiles>
+
+
+</profileset>

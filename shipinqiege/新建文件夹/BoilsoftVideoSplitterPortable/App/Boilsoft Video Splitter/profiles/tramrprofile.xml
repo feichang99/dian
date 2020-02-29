@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="11">
+  <main>
+    <name>
+      AMR - Adaptive Multi-Rate
+    </name>
+    <desc>
+       widely used in GSM and UMTS 
+    </desc>
+    <sname>
+      AMR
+    </sname>
+    <format>
+      amr
+    </format>
+    <extname>
+      amr
+    </extname>
+  </main>
+  <Parameter>
+    <audio>
+      <acodec name="AMR_NB" codec="amr_nb">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="4.75,5.15,5.90,6.70,7.40,7.95,10.20,12.20"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>  
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="AMR_NB - Normal Quality( 8000 Hz, mono , 7.40 kbps )" guid="690AD0A8-3CDD-0005-0000-915B84D90AE7">
+      <audio codec="amr_nb" bitrate="7.40" bitraterange="4.75,6.70,7.40,10.20,12.20" channel="1" sample_rate="8000" />
+    </profile>
+    <profile name="AMR_NB - HIGH Quality( 8000 Hz, mono , 12.20 kbps )" guid="690AD0A8-3CDD-0005-0001-915B84D90AE7">
+      <audio codec="amr_nb" bitrate="12.20" bitraterange="4.75,6.70,7.40,10.20,12.20" channel="1" sample_rate="8000" />
+    </profile>  
+  </profiles>
+   
+
+</profileset>

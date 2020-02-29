@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <desc>a streaming media format,with low rate and acceptable picture quality.</desc>
+    <extname>rmvb</extname>
+    <format>rm</format>
+    <name>RM - Real Video</name>
+    <sname>RM</sname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="RealVideo 8" codec="rv8" >
+        <bitrate value="12,28,32,39,64,80,96,118,128,160,192,212,256,320,354,384,448,512,640,672,768,872,1000,1200,1500,1872,2000,3000,4000,6000,8000" />
+        <framerate value="5,8,10,12,15,23.976,24,25,29.97,30" />
+        <framesize value="128x96,160x120,176x144,320x240,352x240,352x288,640x480,768x576,960x540,1280x720,1440x1080,1920x1080,original,custom..." />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+      <vcodec name="RealVideo 9" codec="rv9" >
+        <bitrate value="12,28,32,39,64,80,96,118,128,160,192,212,256,320,354,384,448,512,640,672,768,872,1000,1200,1500,1872,2000,3000,4000,6000,8000" />
+        <framerate value="5,8,10,12,15,23.976,24,25,29.97,30" />
+        <framesize value="128x96,160x120,176x144,320x240,352x240,352x288,640x480,768x576,960x540,1280x720,1440x1080,1920x1080,original,custom..." />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+      <vcodec name="RealVideo 10" codec="rv10" >
+        <bitrate value="12,28,32,39,64,80,96,118,128,160,192,212,256,320,354,384,448,512,640,672,768,872,1000,1200,1500,1872,2000,3000,4000,6000,8000" />
+        <framerate value="5,8,10,12,15,23.976,24,25,29.97,30" />
+        <framesize value="128x96,160x120,176x144,320x240,352x240,352x288,640x480,768x576,960x540,1280x720,1440x1080,1920x1080,original,custom..." />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="RealAudio Voice" codec="ra-voice">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="5,6.5,8.5"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="16"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="32"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="64"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="RealAudio" codec="ra">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="6,8"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="11025">
+            <channel value="1" >
+              <bitrate value="11"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="12,20"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="6" >
+              <bitrate value="96,132"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="16,20"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,20,32,44"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="184,268"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="2" >
+              <bitrate value="64"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,44,64"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="44,96,128,160,192,256,320"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="RealAudio High-Response" codec="ra-hr">
+        <bits_per_sample value="16">
+          <sample_rate value="22050">
+            <channel value="2" >
+              <bitrate value="20"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="20,32"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,44"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile guid="00000000-3CDD-00B0-0000-915B84D90AE7" name="256k DSL or Cable( Video: RealVideo 10, 212 kbps, 30 fps;  Audio: RealAudio High-Response, 44 kbps )">
+      <video aspectratio="Auto"  bitraterange="64,128,212,384,512" bitrate="212" codec="rv10" framerate="30" framesize="original" quality="70" maxbufferTime="4" maxkeyframeinterval="10"/>
+      <audio codec="ra-hr" bitrate="44" bitraterange="32,44,44,44,44" channel="2" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-00B0-0001-915B84D90AE7" name="1M Download( Video: RealVideo 10, 872 kbps, 30 fps;  Audio: RealAudio, 128 kbps )">
+      <video aspectratio="Auto"  bitraterange="512,768,872,1500,2000" bitrate="872" codec="rv10" framerate="30" framesize="original" quality="90" maxbufferTime="4" maxkeyframeinterval="10"/>
+      <audio codec="ra" bitrate="128" bitraterange="44,96,128,192,256" channel="2" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-00B0-0002-915B84D90AE7" name="2M Download( Video: RealVideo 10, 1872 kbps, 30 fps;  Audio: RealAudio, 128 kbps )">
+      <video aspectratio="Auto"  bitraterange="1000,1500,1872,2000,3000" bitrate="1872" codec="rv10" framerate="30" framesize="original" quality="95" maxbufferTime="4" maxkeyframeinterval="10"/>
+      <audio codec="ra" bitrate="128" bitraterange="44,96,128,192,256" channel="2" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-00B0-0003-915B84D90AE7" name="768 DSL or Cable( Video: RealVideo 10, 672 kbps, 30 fps;  Audio: RealAudio, 96 kbps )">
+      <video aspectratio="Auto"  bitraterange="256,448,672,768,1000" bitrate="672" codec="rv10" framerate="30" framesize="original" quality="88" maxbufferTime="4" maxkeyframeinterval="10"/>
+      <audio codec="ra" bitrate="96" bitraterange="44,96,128,192,256" channel="2" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-00B0-0004-915B84D90AE7" name="512k DSL or Cable( Video: RealVideo 10, 354 kbps, 30 fps;  Audio: RealAudio, 96 kbps )">
+      <video aspectratio="Auto"  bitraterange="128,256,354,448,640" bitrate="354" codec="rv10" framerate="30" framesize="original" quality="84" maxbufferTime="4" maxkeyframeinterval="10"/>
+      <audio codec="ra" bitrate="96" bitraterange="44,96,128,192,256" channel="2" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-00B0-0005-915B84D90AE7" name="384k DSL or Cable( Video: RealVideo 10, 320 kbps, 30 fps;  Audio: RealAudio, 64 kbps )">
+      <video aspectratio="Auto"  bitraterange="128,256,320,448,640" bitrate="320" codec="rv10" framerate="30" framesize="original" quality="77" maxbufferTime="4" maxkeyframeinterval="10"/>
+      <audio codec="ra" bitrate="64" bitraterange="64,64,64,64,64" channel="2" sample_rate="32000" />
+    </profile>  
+    <profile guid="00000000-3CDD-00B0-0006-915B84D90AE7" name="150k LAN( Video: RealVideo 10, 118 kbps, 30 fps;  Audio: RealAudio High-Response, 32 kbps )">
+      <video aspectratio="Auto"  bitraterange="32,64,118,192,256" bitrate="118" codec="rv10" framerate="30" framesize="original" quality="60" maxbufferTime="4" maxkeyframeinterval="10"/>
+      <audio codec="ra-hr" bitrate="32" bitraterange="32,44,44,44,44" channel="2" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-00B0-0007-915B84D90AE7" name="128k Dual ISDN( Video: RealVideo 10, 80 kbps, 15 fps;  Audio: RealAudio, 20 kbps )">
+      <video aspectratio="Auto"  bitraterange="32,64,80,96,128" bitrate="80" codec="rv10" framerate="15" framesize="original" quality="40" maxbufferTime="4" maxkeyframeinterval="10"/>
+      <audio codec="ra" bitrate="20" bitraterange="16,20,20,20,20" channel="1" sample_rate="22050" />
+    </profile>
+    <profile guid="00000000-3CDD-00B0-0008-915B84D90AE7" name="64k Single ISDN( Video: RealVideo 10, 39 kbps, 15 fps;  Audio: RealAudio, 11 kbps )">
+      <video aspectratio="Auto"  bitraterange="12,28,39,64,80" bitrate="39" codec="rv10" framerate="15" framesize="original" quality="35" maxbufferTime="4" maxkeyframeinterval="10"/>
+      <audio codec="ra" bitrate="11" bitraterange="11,11,11,11,11" channel="1" sample_rate="11025" />
+    </profile>
+    <profile guid="00000000-3CDD-00B0-0009-915B84D90AE7" name="56k Dial-up( Video: RealVideo 10, 28 kbps, 15 fps;  Audio: RealAudio,6 kbps )">
+      <video aspectratio="Auto"  bitraterange="12,28,32,64,80" bitrate="28" codec="rv10" framerate="15" framesize="original" quality="30" maxbufferTime="4" maxkeyframeinterval="10"/>
+      <audio codec="ra" bitrate="6" bitraterange="6,8,8,8,8" channel="1" sample_rate="8000" />
+    </profile>
+    <profile guid="00000000-3CDD-00B0-000A-915B84D90AE7" name="28k Dial-up( Video: RealVideo 10, 12 kbps, 15 fps;  Audio: RealAudio, 8 kbps )">
+      <video aspectratio="Auto"  bitraterange="12,28,32,64,80" bitrate="12" codec="rv10" framerate="15" framesize="original" quality="30" maxbufferTime="4" maxkeyframeinterval="10"/>
+      <audio codec="ra" bitrate="8" bitraterange="6,8,8,8,8" channel="1" sample_rate="8000" />
+    </profile>
+    <profile guid="00000000-3CDD-00B0-000B-915B84D90AE7" name="HD Video 1080p( Video: RealVideo 10, 3000 kbps, 29.97 fps;  Audio: RealAudio, 128 kbps )">
+      <video aspectratio="Auto"  bitraterange="1000,1500,3000,6000,8000" bitrate="3000" codec="rv10" framerate="29.97" framesize="1920x1080" quality="100" maxbufferTime="4" maxkeyframeinterval="5"/>
+      <audio codec="ra" bitrate="128" bitraterange="44,96,128,256,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-00B0-000C-915B84D90AE7" name="HD Video 720p( Video: RealVideo 10, 1500 kbps, 29.97 fps;  Audio: RealAudio, 128 kbps )">
+      <video aspectratio="Auto"  bitraterange="512,1000,1500,3000,6000" bitrate="1500" codec="rv10" framerate="29.97" framesize="1280x720" quality="100" maxbufferTime="4" maxkeyframeinterval="5"/>
+      <audio codec="ra" bitrate="128" bitraterange="44,96,128,256,320" channel="2" sample_rate="44100" />
+    </profile>
+  </profiles>
+
+</profileset>

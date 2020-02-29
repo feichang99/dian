@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="11">
+  <main>
+    <name>
+      OGG - Ogg derives from ogging, jargon from the network game called Netrek 
+    </name>
+    <desc>
+      The Ogg container format can multiplex a number of independent streams for audio, video, text (such as subtitles), and metadata.
+    </desc>
+    <sname>
+      0GG
+    </sname>
+    <format>
+      ogg
+    </format>
+    <extname>
+      ogg
+    </extname>
+  </main>
+  <Parameter>
+    <audio>
+      <acodec name="VORBIS" codec="vorbis">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="8,16,24,32,40"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,24,32,48,64,80"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="11025">
+            <channel value="1" >
+              <bitrate value="16,24,32,40,48"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,24,32,40,48,56,64,80,96"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="12000">
+            <channel value="1" >
+              <bitrate value="16,24,32,40,48"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,24,32,40,48,56,64,80,96"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="16,24,32,40,48,56,64,80,96"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="24,32,40,48,56,64,80,96,112,128,160,192"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="16,24,32,40,48,56,64,80"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="24000">
+            <channel value="1" >
+              <bitrate value="16,24,32,40,48,56,64,80"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="48,56,64,80,96,112,128,160,192,224,256,320,384,448"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="48,56,64,80,96,112,128,160,192,224,256,320,384,448"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>  
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+  	<profile name="OGG - Normal Quality( 44100 Hz, stereo , 128 kbps )" guid="690AD0A8-3CDD-0020-0000-915B84D90AE7">
+      <audio codec="vorbis" bitrate="128" bitraterange="64,96,128,192,224" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="OGG - High Quality( 48000 Hz, stereo , 320 kbps  )" guid="690AD0A8-3CDD-0020-0001-915B84D90AE7">
+      <audio codec="vorbis" bitrate="320" bitraterange="128,256,320,384,448" channel="2" sample_rate="48000" />
+    </profile>  
+    <profile name="OGG - Low Quality( 22050 Hz, stereo , 64 kbps )" guid="690AD0A8-3CDD-0020-0002-915B84D90AE7">
+      <audio codec="vorbis" bitrate="64" bitraterange="32,48,64,96,128" channel="2" sample_rate="22050" />
+    </profile>
+  </profiles>
+   
+
+</profileset>

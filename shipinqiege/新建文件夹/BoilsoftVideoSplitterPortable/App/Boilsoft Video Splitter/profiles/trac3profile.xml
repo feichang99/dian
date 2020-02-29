@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <desc>The "AC3" name is often used to refer to any audio encoding which can be used for DVD encoding to match Dolby Digital's specification.</desc>
+    <extname>ac3</extname>
+    <format>ac3</format>
+    <name>AC3 - Dolby Digital AC-3</name>
+    <sname>AC3</sname>
+  </main>
+  <Parameter>
+    <audio>
+      <acodec name="AC3" codec="ac3">
+        <bits_per_sample value="16">
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="AC3 - Normal Quality( 44100 Hz, stereo , 128 kbps )" guid="690AD0A8-3CDD-A000-0000-915B84D90AE7">
+      <audio codec="ac3" bitrate="128" bitraterange="64,96,128,192,224" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="AC3 - High Quality( 48000 Hz, stereo , 320 kbps  )" guid="690AD0A8-3CDD-A000-0001-915B84D90AE7">
+      <audio codec="ac3" bitrate="320" bitraterange="128,256,320,448,640" channel="2" sample_rate="48000" />
+    </profile>  
+    <profile name="AC3 - Low Quality( 22050 Hz, stereo , 64 kbps )" guid="690AD0A8-3CDD-A000-0002-915B84D90AE7">
+      <audio codec="ac3" bitrate="64" bitraterange="32,48,64,96,128" channel="2" sample_rate="22050" />
+    </profile>
+  </profiles>
+
+</profileset>

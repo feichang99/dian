@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <desc>an digital audio format in UNIX OS.</desc>
+    <extname>au</extname>
+    <format>au</format>
+    <name>AU - SUN AU Format</name>
+    <sname>AU</sname>
+  </main>
+  <Parameter>
+    <audio>
+      <acodec name="PCM_S16BE" codec="pcm_s16be">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="256"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="256"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="512"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="1536"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="352"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="705"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="2116"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="512"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1024"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="3072"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="705"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1411"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="4233"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1536"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="4608"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="54000">
+            <channel value="1" >
+              <bitrate value="864"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1728"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="5184"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="72000">
+            <channel value="1" >
+              <bitrate value="1152"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="2304"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="6912"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="96000">
+            <channel value="1" >
+              <bitrate value="1536"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="3072"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="9216"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="PCM_ALAW" codec="pcm_alaw">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="64"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="128"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="384"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="256"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="176"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="352"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="1058"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="256"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="512"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="1536"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="352"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="705"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="2116"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="384"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="2304"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="54000">
+            <channel value="1" >
+              <bitrate value="432"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="864"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="2592"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="72000">
+            <channel value="1" >
+              <bitrate value="576"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1152"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="3456"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="96000">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1536"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="4608"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="PCM_MULAW" codec="pcm_mulaw">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="64"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="128"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="384"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="256"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="176"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="352"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="1058"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="256"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="512"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="1536"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="352"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="705"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="2116"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="384"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="2304"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="54000">
+            <channel value="1" >
+              <bitrate value="432"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="864"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="2592"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="72000">
+            <channel value="1" >
+              <bitrate value="576"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1152"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="3456"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="96000">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1536"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="4608"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="PCM_S8" codec="pcm_s8">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="64"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="128"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="256"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="176"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="352"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="256"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="512"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="352"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="705"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="384"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="54000">
+            <channel value="1" >
+              <bitrate value="432"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="864"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="72000">
+            <channel value="1" >
+              <bitrate value="576"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1152"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="96000">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1536"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="AU - Sun AU Format( 44100 Hz, stereo , 1411 kbps )" guid="690AD0A8-3CDD-A005-0000-915B84D90AE7">
+      <audio codec="pcm_s16be" bitrate="1411" bitraterange="1411,1411,1411,1411,1411" channel="2" sample_rate="44100" />
+    </profile>
+  </profiles>
+
+</profileset>

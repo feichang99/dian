@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <desc>an audio file format standard used for Matroska Audio File.</desc>
+    <extname>mka</extname>
+    <format>matroska</format>
+    <name>MKA - Matroska File Format</name>
+    <sname>MKA</sname>
+  </main>
+  <Parameter>
+    <audio>
+      <acodec name="MPEG4-AAC" codec="aac">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="8,16,24,32,40,48"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,80,96"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="11025">
+            <channel value="1" >
+              <bitrate value="8,16,24,32,40,48,56,64"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,80,96,112,128"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="8,16,24,32,40,48,56,64,80,96"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,80,96,112,128,160,192"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="8,16,24,32,40,48,56,64,80,96,112,128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="24000">
+            <channel value="1" >
+              <bitrate value="8,16,24,32,40,48,56,64,80,96,112,128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="8,16,24,32,40,48,56,64,80,96,112,128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="8,16,24,32,40,48,56,64,80,96,112,128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="8,16,24,32,40,48,56,64,80,96,112,128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,80,96,112,128,160,192,224,256"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="MP2" codec="mp2">
+        <bits_per_sample value="16">
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="24000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="MP3" codec="mp3">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="AC3" codec="ac3">
+        <bits_per_sample value="16">
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="16,32,48,64,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="32,48,64,96,112,128,160,192,224,256,320,384,448,512,640"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="MKA - Normal Quality( MP3, 44100 Hz, stereo , 128 kbps )" guid="690AD0A8-3CDD-A004-0000-915B84D90AE7">
+      <audio codec="mp3" bitrate="128" bitraterange="64,96,128,192,224" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="MKA - High Quality( MP3, 48000 Hz, stereo , 320 kbps  )" guid="690AD0A8-3CDD-A004-0001-915B84D90AE7">
+      <audio codec="mp3" bitrate="320" bitraterange="128,192,224,256,320" channel="2" sample_rate="48000" />
+    </profile>  
+    <profile name="MKA - Low Quality( MP3, 22050 Hz, stereo , 64 kbps )" guid="690AD0A8-3CDD-A004-0002-915B84D90AE7">
+      <audio codec="mp3" bitrate="64" bitraterange="32,48,64,96,128" channel="2" sample_rate="22050" />
+    </profile>
+  </profiles>
+
+</profileset>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <desc>a streaming media format, meaning that it can be played while it is downloaded.</desc>
+    <extname>ra</extname>
+    <format>ra</format>
+    <name>RA - Real Audio</name>
+    <sname>RA</sname>
+  </main>
+  <Parameter>
+    <audio>
+      <acodec name="RealAudio Voice" codec="ra-voice">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="5,6.5,8.5"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="16"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="32"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="64"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="RealAudio" codec="ra">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="6,8"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="11025">
+            <channel value="1" >
+              <bitrate value="11"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="12,20"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="6" >
+              <bitrate value="96,132"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="16,20"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="16,20,32,44"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="184,268"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="2" >
+              <bitrate value="64"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,44,64"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="44,96,128,160,192,256,320"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="RealAudio High-Response" codec="ra-hr">
+        <bits_per_sample value="16">
+          <sample_rate value="22050">
+            <channel value="2" >
+              <bitrate value="20"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="20,32"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,44"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="RealAudio Music - Good Quality( 44100 Hz, stereo , 96 kbps )" guid="690AD0A8-3CDD-A003-0000-915B84D90AE7">
+      <audio codec="ra" bitrate="96" bitraterange="44,96,128,160,256" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="RealAudio Music - High Quality( 44100 Hz, stereo , 128 kbps )" guid="690AD0A8-3CDD-A003-0001-915B84D90AE7">
+      <audio codec="ra" bitrate="128" bitraterange="44,96,128,256,320" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="RealAudio Music - Normal Quality( 32000 Hz, stereo , 64 kbps )" guid="690AD0A8-3CDD-A003-0002-915B84D90AE7">
+      <audio codec="ra" bitrate="64" bitraterange="64,64,64,64,64" channel="2" sample_rate="32000" />
+    </profile>
+    <profile name="RealAudio Music - Low Quality( 22050 Hz, stereo , 32 kbps )" guid="690AD0A8-3CDD-A003-0003-915B84D90AE7">
+      <audio codec="ra" bitrate="32" bitraterange="16,20,32,44,44" channel="2" sample_rate="22050" />
+    </profile>
+    <profile name="RealAudio Voice( 16000 Hz, mono , 16 kbps )" guid="690AD0A8-3CDD-A003-0004-915B84D90AE7">
+      <audio codec="ra-voice" bitrate="16" bitraterange="16,16,16,16,16" channel="1" sample_rate="16000" />
+    </profile>
+  </profiles>
+</profileset>
+
+

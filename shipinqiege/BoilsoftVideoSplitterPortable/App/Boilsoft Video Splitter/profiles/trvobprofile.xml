@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <name>
+      VOB - MPEG2 PS Format
+    </name>
+    <desc>
+      VOB - MPEG2 PS Format
+    </desc>
+    <sname>
+      VOB
+    </sname>
+    <format>
+      vob
+    </format>
+    <extname>
+      vob
+    </extname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="MPEG2" codec="mpeg2video">
+        <bitrate value="750,1150,1500,2040,2376,3000,4000,5000,6000,7000,8000,9000,10000,12000" />
+        <framerate value="23.976,24,25,29.97,30" />
+        <framesize value="80x60,96x72,128x96,160x120,176x120,176x144,192x144,240x180,320x200,320x240,352x240,352x288,480x360,720x480,720x576,1280x720,1920x1080,original,custom..." />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="MP2" codec="mp2">
+        <bits_per_sample value="16">
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="AC3" codec="ac3">
+        <bits_per_sample value="16">
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="Video: MPEG2, 6000 kbps, 29.97 fps;  Audio: MP2, 224 kbps" guid="00000000-3CDD-000A-0000-915B84D90AE7">
+      <video codec="mpeg2video" framesize="original" framerate="29.97" bitrate="6000" aspectratio="Auto"  bitraterange="3000,5000,6000,7000,9000" />
+      <audio codec="mp2" bitrate="224" bitraterange="128,192,224,256,320" channel="2" sample_rate="48000" />
+    </profile>
+    <profile name="HD Video 1080p( Video: MPEG2, 8000 kbps, 30 fps;  Audio: AC3, 320 kbps )" guid="00000000-3CDD-000A-0001-915B84D90AE7">
+      <video codec="mpeg2video" framesize="1920x1080" framerate="30" bitrate="8000" aspectratio="Auto"  bitraterange="4000,6000,8000,10000,12000" />
+      <audio codec="ac3" bitrate="320" bitraterange="128,256,320,384,448" channel="2" sample_rate="48000" />
+    </profile>
+    <profile name="HD Video 720p( Video: MPEG2, 6000 kbps, 30 fps;  Audio: AC3, 224 kbps )" guid="00000000-3CDD-000A-0002-915B84D90AE7">
+      <video codec="mpeg2video" framesize="1280x720" framerate="30" bitrate="6000" aspectratio="Auto"  bitraterange="3000,5000,6000,7000,8000" />
+      <audio codec="ac3" bitrate="224" bitraterange="128,192,224,320,384" channel="2" sample_rate="48000" />
+    </profile>
+  </profiles>
+
+
+</profileset>

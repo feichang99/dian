@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="11">
+  <main>
+    <name>
+      WAV - Waveform Audio File Format
+    </name>
+    <desc>
+      a Microsoft and IBM audio file format standard for storing an audio bitstream on PCs
+    </desc>
+    <sname>
+      WAV
+    </sname>
+    <format>
+      wav
+    </format>
+    <extname>
+      wav
+    </extname>
+  </main>
+  <Parameter>
+    <audio>
+      <acodec name="WAV" codec="pcm">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="256"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="11025">
+            <channel value="1" >
+              <bitrate value="176"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="352"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="12000">
+            <channel value="1" >
+              <bitrate value="192"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="384"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="256"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="512"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="352"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="705"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="24000">
+            <channel value="1" >
+              <bitrate value="384"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="768"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="512"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1024"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="705"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1411"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="768"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="1536"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="64000">
+            <channel value="1" >
+              <bitrate value="1024"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="2048"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="88200">
+            <channel value="1" >
+              <bitrate value="1411"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="2822"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="96000">
+            <channel value="1" >
+              <bitrate value="1536"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="3072"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample> 
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+  	<profile name="WAV - Normal Quality( 44100 Hz, stereo , 1411 kbps )" guid="690AD0A8-3CDD-0104-0000-915B84D90AE7">
+      <audio codec="pcm" bitrate="1411" bitraterange="1411,1411,1411,1411,1411" channel="2" sample_rate="44100" />
+    </profile>
+    <profile name="WAV - High Quality( 48000 Hz, stereo , 1536 kbps  )" guid="690AD0A8-3CDD-0104-0001-915B84D90AE7">
+      <audio codec="pcm" bitrate="1536" bitraterange="1536,1536,1536,1536,1536" channel="2" sample_rate="48000" />
+    </profile> 
+    <profile name="WAV - Low Quality( 16000 Hz, stereo , 512 kbps )" guid="690AD0A8-3CDD-0104-0002-915B84D90AE7">
+      <audio codec="pcm" bitrate="512" bitraterange="512,512,512,512,512" channel="2" sample_rate="16000" />
+    </profile>
+  </profiles>
+   
+
+</profileset>

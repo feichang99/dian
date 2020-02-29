@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <desc>a multimedia container format introduced by Microsoft</desc>
+    <extname>avi</extname>
+    <format>avi</format>
+    <name>AVI - Audio Video Interleave</name>
+    <sname>AVI</sname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="XviD" codec="xvid">
+        <framesize value="80x60,96x72,128x96,160x120,176x120,176x144,192x144,240x180,320x200,320x240,352x288,720x480,720x576,1280x720,1920x1080,original,custom..." />
+        <framerate value="15,23.976,24,25,29.97,30" />
+        <bitrate value="224,256,324,512,800,1000,1200,1400,1500,1800,2500,2700,4000,4500,6000,8000,10000,12000" />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+      <vcodec name="MPEG4" codec="mpeg4">
+        <framesize value="80x60,96x72,128x96,160x120,176x120,176x144,192x144,240x180,320x200,320x240,352x288,480x272,640x480,720x480,720x576,1280x720,1920x1080,original,custom..." />
+        <framerate value="15,23.976,24,25,29.97,30" />
+        <bitrate value="224,256,324,512,800,1000,1200,1400,1500,1800,2500,2700,4000,4500,6000,8000,10000,12000" />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="AC3" codec="ac3">
+        <bits_per_sample value="16">
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+            <channel value="6" >
+              <bitrate value="128,160,192,224,256,320,384,448"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+      <acodec name="MP3" codec="mp3">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="16000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="32000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,40,48,56,64,80,96,112,128,160,192,224,256,320"/>
+            </channel>
+          </sample_rate>
+
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile guid="00000000-3CDD-0000-0000-915B84D90AE7" name="Video: XviD, 1200 kbps, 29.97 fps;  Audio: MP3, 128 kbps">
+      <video aspectratio="Auto"  bitraterange="256,512,1200,1500,2500" bitrate="1200" codec="xvid" framerate="29.97" framesize="original" />
+      <audio bitrate="128" bitraterange="48,64,128,192,320" channel="2" codec="mp3" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-0000-0001-915B84D90AE7" name="Video: XviD, 1500 kbps, 29.97 fps;  Audio: MP3, 128 kbps">
+      <video aspectratio="Auto"  bitraterange="256,512,1200,1500,2500" bitrate="1500" codec="xvid" framerate="29.97" framesize="original" />
+      <audio bitrate="128" bitraterange="48,80,128,192,256" channel="2" codec="mp3" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-0000-0002-915B84D90AE7" name="Video: MPEG4, 1500 kbps, 25 fps;  Audio: MP3, 192 kbps">
+      <video aspectratio="Auto"  bitraterange="256,512,1200,1500,2500" bitrate="1500" codec="mpeg4" framerate="25" framesize="original" />
+      <audio bitrate="192" bitraterange="48,80,128,192,256" channel="2" codec="mp3" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-0000-0003-915B84D90AE7" name="Video: MPEG4, 1200 kbps, 25 fps;  Audio: MP3, 192 kbps">
+      <video aspectratio="Auto"  bitraterange="256,512,1200,1500,2500" bitrate="1200" codec="mpeg4" framerate="25" framesize="original" />
+      <audio bitrate="192" bitraterange="32,64,128,192,320" channel="2" codec="mp3" sample_rate="44100" />
+    </profile>
+    <profile guid="00000000-3CDD-0000-0004-915B84D90AE7" name="HD Video 1080p( Video: XviD, 8000 kbps, 30 fps;  Audio: MP3, 256 kbps )">
+      <video aspectratio="Auto"  bitraterange="4000,6000,8000,10000,12000" bitrate="8000" codec="xvid" framerate="30" framesize="1920x1080" />
+      <audio bitrate="256" bitraterange="64,128,192,256,320" channel="2" codec="mp3" sample_rate="48000" />
+    </profile>
+    <profile guid="00000000-3CDD-0000-0005-915B84D90AE7" name="HD Video 720p( Video: MPEG4, 4500 kbps, 30 fps;  Audio: MP3, 192 kbps )">
+      <video aspectratio="Auto"  bitraterange="2500,4000,4500,6000,8000" bitrate="4500" codec="mpeg4" framerate="30" framesize="1280x720" />
+      <audio bitrate="192" bitraterange="64,128,192,224,256" channel="2" codec="mp3" sample_rate="48000" />
+    </profile>
+  </profiles>
+
+</profileset>

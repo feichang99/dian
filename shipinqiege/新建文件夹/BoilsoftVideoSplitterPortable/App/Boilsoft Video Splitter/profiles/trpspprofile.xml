@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <name>
+      PSPMP4
+    </name>
+    <desc>
+      Widely used video streaming media for PSP
+    </desc>
+    <sname>
+      PSPMP4
+    </sname>
+    <format>
+      psp
+    </format>
+    <extname>
+      mp4
+    </extname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="XviD" codec="xvid">
+        <bitrate value="128,216,384,512,768,1200,1500" />
+        <framerate value="14.985,29.97" />
+        <framesize value="160x112,368x208,320x240,480x272" />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+      <vcodec name="MPEG4" codec="mpeg4">
+        <bitrate value="384,512,768,1200,1500" />
+        <framerate value="14.985,29.97" />
+        <framesize value="160x112,368x208,320x240,480x272" />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="MPEG4-AAC" codec="aac">
+        <bits_per_sample value="16">
+          <sample_rate value="22050">
+            <channel value="1" >
+              <bitrate value="32,48,64,96,128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,64,96,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="24000">
+            <channel value="1" >
+              <bitrate value="32,48,64,96,128"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,64,96,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="44100">
+            <channel value="1" >
+              <bitrate value="32,48,64,96,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,64,96,128,160"/>
+            </channel>
+          </sample_rate>
+          <sample_rate value="48000">
+            <channel value="1" >
+              <bitrate value="32,48,64,96,128,160"/>
+            </channel>
+            <channel value="2" >
+              <bitrate value="32,48,64,96,128,160"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile name="PSP Normal ( Xvid,29.97 fps,368x208 )" guid="00000000-3CDD-0009-0000-915B84D90AE7">
+      <video codec="xvid" framesize="368x208" framerate="29.97" bitrate="512" aspectratio="Auto"  bitraterange="216,384,512,768,1200"  />
+      <audio codec="aac" bitrate="96" bitraterange="48,64,96,128,160" channel="2" sample_rate="48000" />
+    </profile>
+    <profile name="PSP - High Resolution ( MPEG4,29.97 fps,480x272 )" guid="00000000-3CDD-0009-0001-915B84D90AE7">
+      <video codec="mpeg4" framesize="480x272" framerate="29.97" bitrate="768" aspectratio="Auto"  bitraterange="384,512,768,1200,1500"  />
+      <audio codec="aac" bitrate="128" bitraterange="48,64,96,128,160" channel="2" sample_rate="48000" />
+    </profile>
+  </profiles>
+
+
+</profileset>

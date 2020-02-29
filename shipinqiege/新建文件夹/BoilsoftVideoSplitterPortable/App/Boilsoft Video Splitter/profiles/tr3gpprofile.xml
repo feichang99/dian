@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<profileset ver="12">
+  <main>
+    <desc>Widely used on 3G mobile phones</desc>
+    <extname>3gp</extname>
+    <format>3gp</format>
+    <name>3GPP - 3rd Generation Partnership Project</name>
+    <sname>3GP</sname>
+  </main>
+  <Parameter>
+    <video>
+      <vcodec name="H263" codec="h263">
+        <bitrate value="20,28,36,44,52,60,64,120,128,140,240,256,512" />
+        <framerate value="5,10,12,15,20,23.976,24,25,29.97,30" />
+        <framesize value="128x96,176x144" />
+        <aspect value="Auto,4:3,16:9" />
+      </vcodec>
+    </video>
+    <audio>
+      <acodec name="AMR_NB" codec="amr_nb">
+        <bits_per_sample value="16">
+          <sample_rate value="8000">
+            <channel value="1" >
+              <bitrate value="4.75,5.15,5.90,6.70,7.40,7.95,10.20,12.20"/>
+            </channel>
+          </sample_rate>
+        </bits_per_sample>
+      </acodec>
+    </audio>
+  </Parameter>
+  <profiles>
+    <profile guid="00000000-3CDD-0002-0000-915B84D90AE7" name="3GPP - Extended Mobile Support( H263,240 kbps,176x144,12 fps ; AMR_NB )">
+      <video aspectratio="Auto" bitraterange="28,64,128,240,512" bitrate="240" codec="h263" framerate="12" framesize="176x144" />
+      <audio bitrate="12.20" bitraterange="4.75,5.15,6.70,10.20,12.20" channel="1" codec="amr_nb" sample_rate="8000" />
+    </profile>
+    <profile guid="00000000-3CDD-0002-0001-915B84D90AE7" name="3GPP - Mobile Balanced Quality( H263,140 kbps,128x96,10 fps ; AMR_NB )">
+      <video aspectratio="Auto" bitraterange="64,128,140,256,512" bitrate="140" codec="h263" framerate="10" framesize="128x96" />
+      <audio bitrate="10.20" bitraterange="4.75,5.15,6.70,10.20,12.20" channel="1" codec="amr_nb" sample_rate="8000" />
+    </profile>
+  </profiles>
+
+
+</profileset>
