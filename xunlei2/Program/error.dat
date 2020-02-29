@@ -1,0 +1,86 @@
+[dl_crt]
+resolver=5816
+file_asyn_io_helper=3200
+asyn_io_manager=2692
+udp_socket_portal=3468
+udt_timer=5772
+intra_node_manager=6140
+wait_objects_thread=7412
+trace_route_thread=6664
+connect_thread=2324
+ping_thread=5384
+download_thread=2748
+cal_emule_id=980
+[GUI_ComThunder_CXLTaskListCtrl_SendViewOnlineRequest_create]
+owner_module_name=ComThunder
+owner_class_name=CXLTaskListCtrl
+thread_fuc_name=SendViewOnlineRequest
+thread_id=6136
+thread_create_time=2020-2-26 11:31:55
+[GUI_ComThunder_CDllLoaderThread_LoadDllProc_create]
+owner_module_name=ComThunder
+owner_class_name=CDllLoaderThread
+thread_fuc_name=LoadDllProc
+thread_id=6164
+thread_create_time=2020-2-26 11:31:56
+[DownAndPlay_crt]
+WorkThread=1984
+[Banner_crt]
+CGetADCfgThread=5296
+[InMedia_crt]
+PopupIPC=2436
+PopupBackWnd=2348
+InMediaDaemon=4632
+[xlipc_crt]
+ipcconnect=2464
+ipcread=1052
+[GUI_DownloadStat_CXLAddin_TranslateThread_create]
+owner_module_name=DownloadStat
+owner_class_name=CXLAddin
+thread_fuc_name=TranslateThread
+thread_id=2164
+thread_create_time=2020-2-26 11:32:5
+[GUI_DownloadStat_CXLAddin_TimerThread_create]
+owner_module_name=DownloadStat
+owner_class_name=CXLAddin
+thread_fuc_name=TimerThread
+thread_id=4492
+thread_create_time=2020-2-26 11:32:5
+[GUI_ComThunder_CSecurity_CheckSecurityThread_create]
+owner_module_name=ComThunder
+owner_class_name=CSecurity
+thread_fuc_name=CheckSecurityThread
+thread_id=8172
+thread_create_time=2020-2-26 11:33:56
+[dlxlcom_crt]
+software_check_proc=3376
+[GUI_ComThunder_CTaskFailQuery__QueryRecommendThread_create]
+owner_module_name=ComThunder
+owner_class_name=CTaskFailQuery
+thread_fuc_name=_QueryRecommendThread
+thread_id=1424
+thread_create_time=2020-2-26 11:38:47
+[GUI_ComThunder_CTaskFailQuery__QueryKeywordThread_create]
+owner_module_name=ComThunder
+owner_class_name=CTaskFailQuery
+thread_fuc_name=_QueryKeywordThread
+thread_id=5664
+thread_create_time=2020-2-26 11:38:47
+[GUI_ComThunder_CMoveTaskFileDlg__CopyThread_create]
+owner_module_name=ComThunder
+owner_class_name=CMoveTaskFileDlg
+thread_fuc_name=_CopyThread
+thread_id=5744
+thread_create_time=2020-1-8 8:36:40
+[GUI_ComThunder_CMoveFileList_MoveProc_create]
+owner_module_name=ComThunder
+owner_class_name=CMoveFileList
+thread_fuc_name=MoveProc
+thread_id=240
+thread_create_time=2020-1-8 8:54:31
+[GUI_ComThunder_CProxyTestorDlg_ProxyTestor_create]
+owner_module_name=ComThunder
+owner_class_name=CProxyTestorDlg
+thread_fuc_name=ProxyTestor
+thread_id=916
+thread_create_time=2019-5-1 12:4:22
