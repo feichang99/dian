@@ -1,0 +1,1095 @@
+============================================================
+Time  2020/01/10 15:20:34 623 
+============================================================
+[2020/01/10 15:20:34 623] isr        28   isr loaded!  
+[2020/01/10 15:20:34 623] isr        48   wifi  
+[2020/01/10 15:20:34 631] isr_1conn  1946 SYS_MSG_LOAD  
+[2020/01/10 15:20:34 631] isr_1conn  1305 onesoc  
+[2020/01/10 15:20:34 631] isr_1conn  1306 ISR_MSG_SSB  
+[2020/01/10 15:20:34 631] isr_1conn  1316 isr  cisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa  268436457  1408347573  
+[2020/01/10 15:20:34 631] isr_1conn  1485 nil  
+[2020/01/10 15:20:34 631] isr_1conn  1562 speex-wb  
+[2020/01/10 15:20:34 631] isr_1conn  1628 once bytes  122  
+[2020/01/10 15:20:34 641] isr_1conn  1662 User set url is   nil  
+[2020/01/10 15:20:34 641] transport  536  paramkvsport is   nil  
+[2020/01/10 15:20:34 642] transport  746  net type:  wifi  
+[2020/01/10 15:20:34 642] transport  747  net operator:  def  
+[2020/01/10 15:20:34 642] transport  748  use proxy:  false  
+[2020/01/10 15:20:34 643] network    80   ipfromenv ,  ipcache  dev.voicecloud.cn  def  42.62.116.34  
+[2020/01/10 15:20:34 643] transport  913  using cached ip:  42.62.116.34  
+[2020/01/10 15:20:34 643] transport  930  try preferred port:  1028  
+[2020/01/10 15:20:34 643] transport  948  ns_i =  nil  
+[2020/01/10 15:20:34 643] transport  1023 [soc] connect   42.62.116.34  1028  
+[2020/01/10 15:20:34 644] isr_1conn  1693 ISR_MSG_AUW  16000  2  
+[2020/01/10 15:20:34 644] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 644] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 646] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 656] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 666] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 677] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 679] transport  419  [soc] [0] connected  
+[2020/01/10 15:20:34 679] isr_1conn  1001 send ssb request  
+[2020/01/10 15:20:34 679] isr_1conn  685  using loginid  
+[2020/01/10 15:20:34 679] isr_1conn  710  lver:  nil  
+[2020/01/10 15:20:34 679] isr_1conn  1077 [session] send 1th audio  
+[2020/01/10 15:20:34 679] isr_1conn  1079 totalsz =   1708  
+[2020/01/10 15:20:34 679] isr_1conn  1082 start netperf_fs_timer  
+[2020/01/10 15:20:34 680] transport  1075 build http request.  
+[2020/01/10 15:20:34 680] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=ssb&ssm=1&auf=audio%2FL16%3Brate%3D16000&cver=5%2E0%2E7%2E1072&net%5Ftype=wifi&csid=cisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa&key=0ekT/KgQg8uemBTeQWJLNLPbPtRp8dyx8xuHPbOkURI^xzTMirmS8ZG7hz2zpFESPs
+CT: text/params
+CE: gzip,encrypt/0.2
+CL: 144
+
+”$]ôæq≠%jÁTh µ∑ÑQB`¨¶Ô.1ã~GµˆtÖ4æø≥ˇ√}JÈÄµ´•ih√˘Ïå¬Z‹hYîM¿!Äøì‚†+Óá
+J~«èJx–ˇjÛCÒ:ﬁÙ9m?ª&]§„á{ˆ∫‡r∫0$Q=¨6I∞;uﬁ≤a≠ÒPMjã[€õK  
+[2020/01/10 15:20:34 680] transport  1075 build http request.  
+[2020/01/10 15:20:34 680] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=1&cver=5%2E0%2E7%2E1072&csid=cisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa&key=0ekT/KgQg8uemBTeQWJLNLPbPtRp8dyx8xuHPbOkURI^zQsklEZFIT1bhz2zpFESPs
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 1720
+
+ ùñ	Ñ®Ëåååååååıê9€®'gúJqÇzr ∂:∆{Ú‹[o._—…—	—…—	XW¸¨‰V*g∞˚â∆§2É¡çò4<ÖP/1©R—⁄¶è⁄·ÈÖºAD·ò.\¥}èµvvßc*XW¸¨»V”sBÃœ˘âI&⁄'—hCR√Óÿ±9±Ø∆|U%≠j¬_ jÀA/é]∑Áñˆº®’(Â3XW¸óL∂]jª•]â>B≠ˇíXÕxsÀ}†Ax_Às©BˇOá/
+˙Ä˚ó~]~V‘RÙTŒóM°¡∫».Xjvø;;–µ ∑^m∑[ÍÔ—`ÓWO⁄}Yñ√«™Çb(1ÖÖÉ`≈_«ù._çD’ÁdjDdÛªÉXW¸«¸V1Î&€_pv”ÍQíIOÓÒûÈîíIßvsT"∂Òx
+ª'ö∏Á¥é\tU,Öwû∆#æÁXW¸èh∂'+À´°©6·k£ˇ”^3}+°í¸Iƒ•rﬂ@ƒ
+Ë8ÊQLxçiâÓ_d~o6IhEf§d#XW¸«kw2“ÃÕü‹<ÕÁ#¢≥ElÀ%∞∫µá∫ˇ¸n52Ω◊“π£ŒÜé]ˆ≈áfgÙ∂Q´ÈssXW¸âoˆû´bDU}õ€πÿ∏˛Hä◊ª™%≥è=â‹£
+uh  
+[2020/01/10 15:20:34 680] transport  441  [soc] [0] send ok  455  
+[2020/01/10 15:20:34 680] transport  441  [soc] [0] send ok  1998  
+[2020/01/10 15:20:34 686] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 696] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 707] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 712] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:34 712] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:34 701
+CL: 1
+X-Res-Date: 2020/01/10 15:20:34 706
+
+0  
+[2020/01/10 15:20:34 712] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:34 712] transport  1305 is_update  true  
+[2020/01/10 15:20:34 712] transport  1307 port updated  1028  
+[2020/01/10 15:20:34 712] transport  1309 switch  1028  
+[2020/01/10 15:20:34 712] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:34 712] isr_1conn  386  response  
+[2020/01/10 15:20:34 712] isr_1conn  415  resp_syncid =  0  
+[2020/01/10 15:20:34 713] ntp        10   ntp_process enter  
+[2020/01/10 15:20:34 713] ntp        53   ntp delay_rtt=  29  , offset =   1.5655  
+[2020/01/10 15:20:34 713] isr_1conn  433  sid =   iat0001d547@dx16f8e53808ca40b762  
+[2020/01/10 15:20:34 713] isr_1conn  443  time cost by session begin command:  32  .  
+[2020/01/10 15:20:34 713] isr_1conn  479  0  2  2  1  
+[2020/01/10 15:20:34 717] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 718] isr_1conn  1077 [session] send 2th audio  
+[2020/01/10 15:20:34 718] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:34 718] transport  1075 build http request.  
+[2020/01/10 15:20:34 718] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn4ONsu/TuvMh6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Ã‡≥˘JoÓLãìwbƒ6°∆†¥fm≠øÓ˘f{(>´&B™ΩûvÏâ>iSP©2
+‹√(‹ƒ9oHÓU[‡˛áì	¶v¢º≤Ö“bDº¸ŒÒj1ç¨v®”◊IÀúe◊∆Æ4kRñ„RX,œ…Àõ€A?9[üÆ  
+[2020/01/10 15:20:34 718] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:34 722] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:34 722] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn8irsDHtuaHn6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:34 706
+CL: 1
+X-Res-Date: 2020/01/10 15:20:34 708
+
+0  
+[2020/01/10 15:20:34 722] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:34 722] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:34 722] isr_1conn  361  size =   1708  
+[2020/01/10 15:20:34 722] isr_1conn  386  response  
+[2020/01/10 15:20:34 722] isr_1conn  415  resp_syncid =  1  
+[2020/01/10 15:20:34 723] isr_1conn  479  1  2  2  1  
+[2020/01/10 15:20:34 726] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 736] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 745] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:34 745] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn4ONsu/TuvMh6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:34 739
+CL: 1
+X-Res-Date: 2020/01/10 15:20:34 740
+
+0  
+[2020/01/10 15:20:34 745] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:34 745] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:34 745] isr_1conn  361  size =   122  
+[2020/01/10 15:20:34 746] isr_1conn  386  response  
+[2020/01/10 15:20:34 746] isr_1conn  415  resp_syncid =  2  
+[2020/01/10 15:20:34 746] isr_1conn  479  2  2  2  1  
+[2020/01/10 15:20:34 746] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 748] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 749] isr_1conn  1077 [session] send 3th audio  
+[2020/01/10 15:20:34 749] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:34 749] transport  1075 build http request.  
+[2020/01/10 15:20:34 749] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn/weuiqmNJb/6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+m'@m“Œ°4n"îT·ßÍ˙XÕ\Ê$·§tï"s1˝>Ge∫è‚Û—†A#Qy]…*!Y.*i±KæUX≤á/3æym€∫a¢¡ﬁ2ıjï¨µh®˚ƒæ√¬ô%WÂFèù•∑¢#ÿÃs“¯ à{‘ k--+…c.  
+[2020/01/10 15:20:34 750] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:34 758] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 768] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 777] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:34 777] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn/weuiqmNJb/6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:34 770
+CL: 1
+X-Res-Date: 2020/01/10 15:20:34 772
+
+0  
+[2020/01/10 15:20:34 777] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:34 778] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:34 778] isr_1conn  361  size =   122  
+[2020/01/10 15:20:34 778] isr_1conn  386  response  
+[2020/01/10 15:20:34 778] isr_1conn  415  resp_syncid =  3  
+[2020/01/10 15:20:34 778] isr_1conn  479  3  2  2  1  
+[2020/01/10 15:20:34 778] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 788] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 789] isr_1conn  1077 [session] send 4th audio  
+[2020/01/10 15:20:34 789] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:34 789] transport  1075 build http request.  
+[2020/01/10 15:20:34 790] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnyBmPwztNz^/6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+™kÚ°txD>•–≠úèuG&¬ùKÊÓ∏TOø6‘˘'Í\Üˆcß=,›]€-ıÛí
+™à"©€«∏UX£•.˛1ˆ;$§ZM±X  
+[2020/01/10 15:20:34 790] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:34 799] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 809] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 819] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 827] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:34 827] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnyBmPwztNz^/6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:34 810
+CL: 1
+X-Res-Date: 2020/01/10 15:20:34 811
+
+0  
+[2020/01/10 15:20:34 827] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:34 827] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:34 827] isr_1conn  361  size =   122  
+[2020/01/10 15:20:34 827] isr_1conn  386  response  
+[2020/01/10 15:20:34 827] isr_1conn  415  resp_syncid =  4  
+[2020/01/10 15:20:34 827] isr_1conn  479  4  2  2  1  
+[2020/01/10 15:20:34 828] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 830] isr_1conn  1077 [session] send 5th audio  
+[2020/01/10 15:20:34 830] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:34 831] transport  1075 build http request.  
+[2020/01/10 15:20:34 831] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnwdZvAXO1P4Z6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Tø¸ÅrAäœˇ*™Å  
+[2020/01/10 15:20:34 831] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:34 838] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 850] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 859] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:34 859] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnwdZvAXO1P4Z6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:34 851
+CL: 1
+X-Res-Date: 2020/01/10 15:20:34 853
+
+0  
+[2020/01/10 15:20:34 859] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:34 859] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:34 859] isr_1conn  361  size =   122  
+[2020/01/10 15:20:34 859] isr_1conn  386  response  
+[2020/01/10 15:20:34 859] isr_1conn  415  resp_syncid =  5  
+[2020/01/10 15:20:34 859] isr_1conn  479  5  2  2  1  
+[2020/01/10 15:20:34 860] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 870] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 870] isr_1conn  1077 [session] send 6th audio  
+[2020/01/10 15:20:34 871] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:34 871] transport  1075 build http request.  
+[2020/01/10 15:20:34 871] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn8NjH9bCAen^6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+l^Óˆ]Ó ÚífA˙zﬂ™‡XﬂiŸT'Ü§ìº≈Éª˙≤$ó(À>DºÈÛ“˙3M∫Ï9òly*ÓU[‡  
+[2020/01/10 15:20:34 871] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:34 880] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 889] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 898] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:34 898] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn8NjH9bCAen^6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:34 891
+CL: 1
+X-Res-Date: 2020/01/10 15:20:34 893
+
+0  
+[2020/01/10 15:20:34 898] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:34 898] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:34 898] isr_1conn  361  size =   122  
+[2020/01/10 15:20:34 898] isr_1conn  386  response  
+[2020/01/10 15:20:34 898] isr_1conn  415  resp_syncid =  6  
+[2020/01/10 15:20:34 899] isr_1conn  479  6  2  2  1  
+[2020/01/10 15:20:34 899] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 910] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 911] isr_1conn  1077 [session] send 7th audio  
+[2020/01/10 15:20:34 911] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:34 912] transport  1075 build http request.  
+[2020/01/10 15:20:34 912] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn/H^NWSqvbv46QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+ßv¸>-A/T±Èp°¶Ç
+Ÿ*ã?›3àò?¿kí;Ñ–∂+SU<Úcw⁄cí
+)ïjkJ*˙]UNU^Ko(4≠ÿkqI G·S‘)¡”v})‘Ÿí¥ﬂvé”[w`ZæpÑå[ÆÓÿÛqòƒËŸ,¬âED	‹ˆ  
+[2020/01/10 15:20:34 912] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:34 920] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 930] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 940] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 949] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:34 949] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn/H^NWSqvbv46QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:34 932
+CL: 1
+X-Res-Date: 2020/01/10 15:20:34 934
+
+0  
+[2020/01/10 15:20:34 949] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:34 949] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:34 949] isr_1conn  361  size =   122  
+[2020/01/10 15:20:34 949] isr_1conn  386  response  
+[2020/01/10 15:20:34 949] isr_1conn  415  resp_syncid =  7  
+[2020/01/10 15:20:34 950] isr_1conn  479  7  2  2  1  
+[2020/01/10 15:20:34 950] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 950] isr_1conn  1077 [session] send 8th audio  
+[2020/01/10 15:20:34 950] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:34 952] transport  1075 build http request.  
+[2020/01/10 15:20:34 952] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn1JrcdCmYDaE6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Éπ#.˘ÁïÒË-ÿ0∞æœŸ˙€€we@mP:’„õF≥∫©Ó£e#!$tvx{[SSπ‹≈	¨Ï	€Ñ	‹ƒU[Y*9‘Æ˝M˜ÒÕ∂¿Ü¯_ObﬁØ¡ı^ÔOZ≥KAÑË£r≈ñ¶ú˙`iSQYÏƒ	‹¿	‹ƒi‹ƒ  
+[2020/01/10 15:20:34 952] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:34 960] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 971] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 979] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:34 979] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn1JrcdCmYDaE6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:34 972
+CL: 1
+X-Res-Date: 2020/01/10 15:20:34 973
+
+0  
+[2020/01/10 15:20:34 979] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:34 979] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:34 979] isr_1conn  361  size =   122  
+[2020/01/10 15:20:34 979] isr_1conn  386  response  
+[2020/01/10 15:20:34 979] isr_1conn  415  resp_syncid =  8  
+[2020/01/10 15:20:34 980] isr_1conn  479  8  2  2  1  
+[2020/01/10 15:20:34 981] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 991] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:34 992] isr_1conn  1077 [session] send 9th audio  
+[2020/01/10 15:20:34 992] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:34 993] transport  1075 build http request.  
+[2020/01/10 15:20:34 993] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn1yxFDfhnHnN6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+ﬁ&=êfb∆ÿÿÌpÛ%FX
+P]e]/f’eΩﬁW?$∂ãOHÉﬂµüäÏBT|√Sπ|ƒ	‹˙	‹≈ŸÏÏU^KAT=&3ÕVF:µô$…\À1q;¢æfEú=”ﬂ‹?º[e"/”QYŸD	‹≈i§ƒ	‹  
+[2020/01/10 15:20:34 993] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 001] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 011] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 021] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 029] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 029] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn1yxFDfhnHnN6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 14
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 15
+
+0  
+[2020/01/10 15:20:35 029] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 029] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 029] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 029] isr_1conn  386  response  
+[2020/01/10 15:20:35 029] isr_1conn  415  resp_syncid =  9  
+[2020/01/10 15:20:35 029] isr_1conn  479  9  2  2  1  
+[2020/01/10 15:20:35 032] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 032] isr_1conn  1077 [session] send 10th audio  
+[2020/01/10 15:20:35 032] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 032] transport  1075 build http request.  
+[2020/01/10 15:20:35 034] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn1qGwcjMdC5v6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+´Ωy…$#qâ∞6v∆ë-06Cø€DnΩõ˛≈^|°˜Û,$¬„∫£°ÍA‚!$A£—y‹ƒŸ  
+[2020/01/10 15:20:35 034] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 042] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 052] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 061] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 061] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn1qGwcjMdC5v6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 53
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 55
+
+0  
+[2020/01/10 15:20:35 061] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 061] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 061] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 061] isr_1conn  386  response  
+[2020/01/10 15:20:35 061] isr_1conn  415  resp_syncid =  10  
+[2020/01/10 15:20:35 061] isr_1conn  479  10  2  2  1  
+[2020/01/10 15:20:35 063] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 073] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 074] isr_1conn  1077 [session] send 11th audio  
+[2020/01/10 15:20:35 074] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 074] transport  1075 build http request.  
+[2020/01/10 15:20:35 074] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn8ORjW3jCZ6/6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+˘Nt˘tBà‹ÕëŒÓªWJÎCœ‹}ËïÛ∏<"<È˘∆nÜ#ÿõö‚/sR…ﬂEâ‹Eò`≠	]ïnUX•Á¿<:f∆ÖG12ûcGo:ŒH-…≠ÖtÇÚ∏°‡–ﬁB2îÒ∫h  
+[2020/01/10 15:20:35 074] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 083] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 093] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 103] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 110] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 110] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn8ORjW3jCZ6/6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 95
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 96
+
+0  
+[2020/01/10 15:20:35 110] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 110] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 110] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 110] isr_1conn  386  response  
+[2020/01/10 15:20:35 110] isr_1conn  415  resp_syncid =  11  
+[2020/01/10 15:20:35 110] isr_1conn  479  11  2  2  1  
+[2020/01/10 15:20:35 114] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 115] isr_1conn  1077 [session] send 12th audio  
+[2020/01/10 15:20:35 115] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 115] transport  1075 build http request.  
+[2020/01/10 15:20:35 115] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn9rIwdENKgf06QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Y–ÜﬂèÒü‰lÃy∆(î¬Èõ≈æg\´Ù|r’Ñ£˙tÍ‰ù#Í¨?G¬ƒÕ§”ìR±’i≤>y…¬y7%æUZË;zùﬂä}V∞†˚çVÎ
+øÇNì¿‘6©ÿD˙øEﬂ‰˘eæïö(o®qQy®ìy!@)#D˘@ÒÓ  
+[2020/01/10 15:20:35 115] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 123] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 133] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 141] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 141] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn9rIwdENKgf06QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 135
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 136
+
+0  
+[2020/01/10 15:20:35 141] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 141] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 142] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 142] isr_1conn  386  response  
+[2020/01/10 15:20:35 142] isr_1conn  415  resp_syncid =  12  
+[2020/01/10 15:20:35 142] isr_1conn  479  12  2  2  1  
+[2020/01/10 15:20:35 143] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 154] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 154] isr_1conn  1077 [session] send 13th audio  
+[2020/01/10 15:20:35 154] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 156] transport  1075 build http request.  
+[2020/01/10 15:20:35 156] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn/Lgfe8VQ1zc6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+sä}l˜T+~,ç´C/¿∏sΩ2∆“ƒûuæidƒøép%≥•GÈö†±<^}iRŸ¿Ï(UÂy"YE7^UZ˛Ïª§.6Ëñ{ú≥˙^èFÔ_|AíU%ÉNv¥g`ùXyü‚0¶Öl¶.JçCPàG¢ŸoY)…E¯ßZn  
+[2020/01/10 15:20:35 156] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 165] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 174] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 185] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 192] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 192] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn/Lgfe8VQ1zc6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 176
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 178
+
+0  
+[2020/01/10 15:20:35 192] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 192] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 192] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 192] isr_1conn  386  response  
+[2020/01/10 15:20:35 192] isr_1conn  415  resp_syncid =  13  
+[2020/01/10 15:20:35 192] isr_1conn  479  13  2  2  1  
+[2020/01/10 15:20:35 194] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 196] isr_1conn  1077 [session] send 14th audio  
+[2020/01/10 15:20:35 196] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 196] transport  1075 build http request.  
+[2020/01/10 15:20:35 196] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn9w^vCRLqKFs6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+].>À>≠·}#r@Ê,Ü·J’æbÏ+¬kåv±‡©¨mßú…ä`#1›©1Qy¯È”ûZ¯jzæUZ˛.{≤6b™R_◊Wå'Â¬Ò„z ıÅPº©t„µu∫á∞äoZ"x,£Qπ…%®QjàMrÓ  
+[2020/01/10 15:20:35 196] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 203] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 213] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 222] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 222] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn9w^vCRLqKFs6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 216
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 217
+
+0  
+[2020/01/10 15:20:35 222] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 222] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 222] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 223] isr_1conn  386  response  
+[2020/01/10 15:20:35 223] isr_1conn  415  resp_syncid =  14  
+[2020/01/10 15:20:35 223] isr_1conn  479  14  2  2  1  
+[2020/01/10 15:20:35 223] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 236] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 236] isr_1conn  1077 [session] send 15th audio  
+[2020/01/10 15:20:35 236] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 236] transport  1075 build http request.  
+[2020/01/10 15:20:35 236] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn/1yBbpFs5Dw6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+'∂7ÿS¬@!%àÉÑø]Osl◊Ô=¡vLÅXƒÆôx•≤Óö9u§ªÓ¨a`e33QxGkô»Z¯}¿Ë”)UZÒîıõ@^(RêÀΩvMmVÊÏ÷Ñ«j™XÆäq4‘©Nø÷  
+[2020/01/10 15:20:35 236] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 245] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 255] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 265] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 274] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 274] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn/1yBbpFs5Dw6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 257
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 259
+
+0  
+[2020/01/10 15:20:35 274] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 274] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 274] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 274] isr_1conn  386  response  
+[2020/01/10 15:20:35 274] isr_1conn  415  resp_syncid =  15  
+[2020/01/10 15:20:35 274] isr_1conn  479  15  2  2  1  
+[2020/01/10 15:20:35 276] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 277] isr_1conn  1077 [session] send 16th audio  
+[2020/01/10 15:20:35 277] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 277] transport  1075 build http request.  
+[2020/01/10 15:20:35 277] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn3qN6DpfiBaR6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+¸&Ë∂'hFhkÕõÑÏGÉÓﬁÈSÅr∆Ç(øﬁïôﬂfÓá«±á8h∞‰ÛP∫ÀØ˚f,â#TÈ·ynUZÂÈP[£c…∂r+ø
+\çú˝9ÚËÍáVe$‹	
+llÕ◊˙h•§'OºMM£R)9»˘)µõZºx·€˛  
+[2020/01/10 15:20:35 277] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 286] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 297] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 302] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 304] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn3qN6DpfiBaR6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 297
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 298
+
+0  
+[2020/01/10 15:20:35 304] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 304] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 304] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 304] isr_1conn  386  response  
+[2020/01/10 15:20:35 304] isr_1conn  415  resp_syncid =  16  
+[2020/01/10 15:20:35 304] isr_1conn  479  16  2  2  1  
+[2020/01/10 15:20:35 305] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 315] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 317] isr_1conn  1077 [session] send 17th audio  
+[2020/01/10 15:20:35 318] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 318] transport  1075 build http request.  
+[2020/01/10 15:20:35 318] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnyMziOflZSse6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+A–?Yﬂ5_YÜÌJ]úv^‹ÀUê˙æ÷˝âkµ†˙bπëyeOàr;ﬂ∫TP(`é+≥æ+Ì>+möéUZÓ∏¢;Oﬁ@∂7(ˆF˚%œë¢E!wË√ñD†Ïˆä…Ó∫°˘?äÌÛß“é™Ë√—{å„:òˆ-iΩÄsn  
+[2020/01/10 15:20:35 318] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 325] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 336] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 346] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 355] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 355] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnyMziOflZSse6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 338
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 340
+
+0  
+[2020/01/10 15:20:35 355] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 355] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 355] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 355] isr_1conn  386  response  
+[2020/01/10 15:20:35 355] isr_1conn  415  resp_syncid =  17  
+[2020/01/10 15:20:35 355] isr_1conn  479  17  2  2  1  
+[2020/01/10 15:20:35 357] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 358] isr_1conn  1077 [session] send 18th audio  
+[2020/01/10 15:20:35 358] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 358] transport  1075 build http request.  
+[2020/01/10 15:20:35 358] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn4UKcJXsRE8g6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+"»ÍD˜àDyPRÉ˛¥Pë^Î:[òÊ≤PËv$Æ	kH«Âütdèƒâ¬»/ıÉR⁄ﬁ+ZÃ¬˚¡õx?≠NUZÙÜ‘˚q6VÅ?aˆpRÊ´ÛÜêÑ·ƒkßòÄ¨˘Ùèyæ-§¯ÈÉ„^#QªL~8KYÇﬁ:Å2˛  
+[2020/01/10 15:20:35 358] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 368] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 378] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 384] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 384] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn4UKcJXsRE8g6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 378
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 379
+
+0  
+[2020/01/10 15:20:35 384] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 384] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 384] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 384] isr_1conn  386  response  
+[2020/01/10 15:20:35 386] isr_1conn  415  resp_syncid =  18  
+[2020/01/10 15:20:35 386] isr_1conn  479  18  2  2  1  
+[2020/01/10 15:20:35 388] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 388] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 389] isr_1conn  1077 [session] send 19th audio  
+[2020/01/10 15:20:35 389] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 389] transport  1075 build http request.  
+[2020/01/10 15:20:35 390] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn16lROEBtBTI6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+◊o Õ]9	Ãâ€§4´∆¯÷J¥kèÉsHæ¸p1wõ Røwç.d∂z.p˙#RXÆg»¢yi∑ˇ»©2.UZÒª√;\^n(ÿ»ÉÚízÍh⁄∏¸SOûU$°ﬁ!e”$®UˇÅç´ÑF[c®ÛQXÏ~∏– i rà+w.  
+[2020/01/10 15:20:35 390] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 398] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 407] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 416] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 417] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&eps=1&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn16lROEBtBTI6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 410
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 411
+
+0  
+[2020/01/10 15:20:35 417] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 417] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 417] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 417] isr_1conn  386  response  
+[2020/01/10 15:20:35 417] isr_1conn  415  resp_syncid =  19  
+[2020/01/10 15:20:35 417] isr_1conn  479  19  2  2  1  
+[2020/01/10 15:20:35 417] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 427] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 429] isr_1conn  1077 [session] send 20th audio  
+[2020/01/10 15:20:35 429] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 429] transport  1075 build http request.  
+[2020/01/10 15:20:35 429] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn/Iyd7GJI0q36QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+sÆÉeﬁùYÊì1Õ?Ù`≈}∞¿¥ßd_Ì‘∫∞ßWVÏô¥H  
+[2020/01/10 15:20:35 430] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 438] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 449] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 457] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 457] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn/Iyd7GJI0q36QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 449
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 451
+
+0  
+[2020/01/10 15:20:35 457] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 457] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 457] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 457] isr_1conn  386  response  
+[2020/01/10 15:20:35 457] isr_1conn  415  resp_syncid =  20  
+[2020/01/10 15:20:35 457] isr_1conn  479  20  2  2  1  
+[2020/01/10 15:20:35 459] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 469] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 470] isr_1conn  1077 [session] send 21th audio  
+[2020/01/10 15:20:35 471] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 471] transport  1075 build http request.  
+[2020/01/10 15:20:35 471] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn6b3Nn0gM/jN6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+ ì’$Âú˘QÛﬁ?À%XOZÒ›õ›≈>‚‹€6†	“XHsºrdå(!Z”h˝√QÎ§e¯áÿÀ`i=gnUZÒ˙{Ωﬁ? q`ø“!0˘Úç–kqòêãq6¢œ€OºgÊÜèÑÅÆÊdáÅÛPπ4g…DÈ˘X?	\¡  
+[2020/01/10 15:20:35 471] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 479] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 489] isr_1conn  273  send_ok_num, timer_num, send_average =   4026  2  2013  
+[2020/01/10 15:20:35 489] isr_1conn  276  netperf =   90  
+[2020/01/10 15:20:35 489] isr_1conn  277  start netperf_other_timer  
+[2020/01/10 15:20:35 489] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 500] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 508] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 508] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn6b3Nn0gM/jN6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 491
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 492
+
+0  
+[2020/01/10 15:20:35 508] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 508] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 508] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 508] isr_1conn  386  response  
+[2020/01/10 15:20:35 508] isr_1conn  415  resp_syncid =  21  
+[2020/01/10 15:20:35 508] isr_1conn  479  21  2  2  1  
+[2020/01/10 15:20:35 509] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 511] isr_1conn  1077 [session] send 22th audio  
+[2020/01/10 15:20:35 511] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 511] transport  1075 build http request.  
+[2020/01/10 15:20:35 511] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnw44SFkd5mRE6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Ê’≤’2U.ﬂËD∞Ñka¨¬Ë†)ë˜r\Év∞€”Ü∑À⁄X?9˘c‚»Æ„QÈ{_πc∏˘ßgI#T˛UZÒÀ–ﬁ<ﬂœÚu>~ÚÊ§ Xô&¢Ùrƒµ)·äX¢ÆÂÖg~œ
+kÉ@√R)m	y´9Ø~È„8˛  
+[2020/01/10 15:20:35 511] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 519] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 529] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 537] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 537] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnw44SFkd5mRE6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 531
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 532
+
+0  
+[2020/01/10 15:20:35 537] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 538] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 538] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 538] isr_1conn  386  response  
+[2020/01/10 15:20:35 538] isr_1conn  415  resp_syncid =  22  
+[2020/01/10 15:20:35 538] isr_1conn  479  22  2  2  1  
+[2020/01/10 15:20:35 540] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 550] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 551] isr_1conn  1077 [session] send 23th audio  
+[2020/01/10 15:20:35 551] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 551] transport  1075 build http request.  
+[2020/01/10 15:20:35 552] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn^mT2GxEzpuA6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+E*|ºÕ≈˜Lv¥M$1◊œ¯“√p˚I∆úÙÚ‘v¨ÈﬁêJU6≤ª˜Ñ¬⁄–<µ?£r)…∞¶ÈÙbikæUZÒ√√€—¶C”	M!±◊[“Í „~v+a^!´¥˛rö(íû÷F∑Á¯Ö?ˆ{®£“)©ËüÅãIz≠©Ó  
+[2020/01/10 15:20:35 552] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 560] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 570] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 581] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 588] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 588] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&eps=1&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn^mT2GxEzpuA6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 572
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 574
+
+0  
+[2020/01/10 15:20:35 588] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 588] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 588] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 588] isr_1conn  386  response  
+[2020/01/10 15:20:35 588] isr_1conn  415  resp_syncid =  23  
+[2020/01/10 15:20:35 588] isr_1conn  479  23  2  2  1  
+[2020/01/10 15:20:35 591] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 592] isr_1conn  1077 [session] send 24th audio  
+[2020/01/10 15:20:35 592] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 592] transport  1075 build http request.  
+[2020/01/10 15:20:35 593] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnxLjnLX8sFBp6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+¶¯oÑ1U˛`µÀΩXbÕ$ä¬Uü“ÀRº£ƒ•@¨Ø£¬=æœçv5u6‰”écQx?l˚bËr/9(∆æUZÌ∏ı€˜ﬁ4$0õ‚XèfÒÌ∫@÷∑/`ÙZ±‘ÔÁk;£:$FãSÓÉAŒìRw-H*8¿G[±hÓ  
+[2020/01/10 15:20:35 593] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 601] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 611] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 619] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 619] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnxLjnLX8sFBp6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 612
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 613
+
+0  
+[2020/01/10 15:20:35 619] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 619] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 619] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 619] isr_1conn  386  response  
+[2020/01/10 15:20:35 619] isr_1conn  415  resp_syncid =  24  
+[2020/01/10 15:20:35 619] isr_1conn  479  24  2  2  1  
+[2020/01/10 15:20:35 621] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 631] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 631] isr_1conn  1077 [session] send 25th audio  
+[2020/01/10 15:20:35 631] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 631] transport  1075 build http request.  
+[2020/01/10 15:20:35 633] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnzOPjFb26Yzc6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Û7≤ [≤,ç“<m
+]÷ÁZØE‚É·§Ω-9¬ƒ·¸∞ÄZàxÚz¥*ìQªCË¨-;3H∫n˝NUZÒ•ã≥ïb]]øAZÌì"%Îf≈4´/ì%<Ã˘bOΩ˛~Nv†€º£Rà(bIâC9+4%N  
+[2020/01/10 15:20:35 633] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 642] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 652] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 661] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 669] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 669] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnzOPjFb26Yzc6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 653
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 655
+
+0  
+[2020/01/10 15:20:35 669] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 669] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 669] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 669] isr_1conn  386  response  
+[2020/01/10 15:20:35 669] isr_1conn  415  resp_syncid =  25  
+[2020/01/10 15:20:35 669] isr_1conn  479  25  2  2  1  
+[2020/01/10 15:20:35 673] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 673] isr_1conn  1077 [session] send 26th audio  
+[2020/01/10 15:20:35 673] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 673] transport  1075 build http request.  
+[2020/01/10 15:20:35 673] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnwVm3GgzQmZ46QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+~UÑÖ∂èF[Ôı@ú˙5íœ˝T_]U‘~±≥‹Kí◊ ,âº–≥ÜXîåQ∏®ãh•äÕzÍßò.UZÒÌCªŸﬁ6b˙ì3÷ÕÉŸÿ“|^‰Ö&öπD∫Ÿ$®}ûéM¶∆ÄR'√ºë®ìRu
+;˜k|n˚d˛>  
+[2020/01/10 15:20:35 673] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 682] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 692] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 700] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 700] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnwVm3GgzQmZ46QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 693
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 694
+
+0  
+[2020/01/10 15:20:35 700] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 700] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 700] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 700] isr_1conn  386  response  
+[2020/01/10 15:20:35 700] isr_1conn  415  resp_syncid =  26  
+[2020/01/10 15:20:35 700] isr_1conn  479  26  2  2  1  
+[2020/01/10 15:20:35 702] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 712] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 715] isr_1conn  1077 [session] send 27th audio  
+[2020/01/10 15:20:35 715] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 715] transport  1075 build http request.  
+[2020/01/10 15:20:35 715] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn5VMdWBbDUua6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+FÆÖ*Ë©V◊q  
+[2020/01/10 15:20:35 715] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 723] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 733] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 743] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 751] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 751] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn5VMdWBbDUua6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 735
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 736
+
+0  
+[2020/01/10 15:20:35 751] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 751] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 751] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 751] isr_1conn  386  response  
+[2020/01/10 15:20:35 751] isr_1conn  415  resp_syncid =  27  
+[2020/01/10 15:20:35 752] isr_1conn  479  27  2  2  1  
+[2020/01/10 15:20:35 753] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 754] isr_1conn  1077 [session] send 28th audio  
+[2020/01/10 15:20:35 754] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 754] transport  1075 build http request.  
+[2020/01/10 15:20:35 755] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn0164s06eA666QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+	E¯™	»ûKÒ!.Ï«w|‹Xfü›ªæ∑ÔöÅµ≈GÌ.¥ﬁ.oû'	‘√RÌ iÔx∏D 90ïûUZÒ⁄”õlÆP=…àﬂç¨’Z¶ºÔÃ´ñoß¶ˆ“jˇÍX±ÁÜ†IìÈV<π∫=ÙìQ…·ÛâLp+›i ™~  
+[2020/01/10 15:20:35 755] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 764] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 774] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 781] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 781] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn0164s06eA666QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 774
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 775
+
+0  
+[2020/01/10 15:20:35 781] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 781] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 781] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 781] isr_1conn  386  response  
+[2020/01/10 15:20:35 781] isr_1conn  415  resp_syncid =  28  
+[2020/01/10 15:20:35 781] isr_1conn  479  28  2  2  1  
+[2020/01/10 15:20:35 784] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 794] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2020/01/10 15:20:35 795] isr_1conn  1077 [session] send 29th audio  
+[2020/01/10 15:20:35 795] isr_1conn  1079 totalsz =   122  
+[2020/01/10 15:20:35 795] transport  1075 build http request.  
+[2020/01/10 15:20:35 795] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn4WbWt5pU3/B6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+ıaz¯ïˆO¿øÅXJQ{òF‘:”7à“¡≠¢Aµ!œ∞ÿÂÜ;Ô”S+¨⁄H<˘™)Å∏6(ÓUZÒ™ı€_ÖÆûqpµΩ&zÓäçã‚≤<Ï ⁄»3ﬁ*“QråèëïnöÏñëísRõõ‡óÀT(i(Ú^  
+[2020/01/10 15:20:35 795] transport  441  [soc] [0] send ok  408  
+[2020/01/10 15:20:35 804] isr_1conn  1693 ISR_MSG_AUW  1  4  
+[2020/01/10 15:20:35 804] isr_1conn  1800 ISR_MSG_GRSLT  
+[2020/01/10 15:20:35 804] isr_1conn  1826 0  2  nil  
+[2020/01/10 15:20:35 805] isr_1conn  1077 [session] send 30th audio  
+[2020/01/10 15:20:35 805] isr_1conn  1079 totalsz =   0  
+[2020/01/10 15:20:35 805] transport  1075 build http request.  
+[2020/01/10 15:20:35 805] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=4&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn0XurU7az21V6QvgdKq8p58=
+CT: text/plain
+CL: 1
+
+0  
+[2020/01/10 15:20:35 805] isr_1conn  1089 [session] send last audio!  
+[2020/01/10 15:20:35 805] isr_1conn  1101 send rslt request  
+[2020/01/10 15:20:35 805] transport  1075 build http request.  
+[2020/01/10 15:20:35 805] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=grs&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynnwizydliB1NN6QvgdKq8p58=
+CT: text/plain
+CL: 1
+
+0  
+[2020/01/10 15:20:35 805] transport  441  [soc] [0] send ok  243  
+[2020/01/10 15:20:35 805] transport  441  [soc] [0] send ok  237  
+[2020/01/10 15:20:35 832] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 832] transport  1446 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&cver=5%2E0%2E7%2E1072&eps=1&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn4WbWt5pU3/B6QvgdKq8p58=
+X-Req-Date: 2020/01/10 15:20:35 816
+CL: 1
+X-Res-Date: 2020/01/10 15:20:35 817
+
+0  
+[2020/01/10 15:20:35 832] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 832] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 832] isr_1conn  361  size =   122  
+[2020/01/10 15:20:35 832] isr_1conn  386  response  
+[2020/01/10 15:20:35 832] isr_1conn  415  resp_syncid =  29  
+[2020/01/10 15:20:35 832] isr_1conn  479  29  2  2  1  
+[2020/01/10 15:20:35 833] isr_1conn  1101 send rslt request  
+[2020/01/10 15:20:35 833] transport  1075 build http request.  
+[2020/01/10 15:20:35 833] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=grs&cver=5%2E0%2E7%2E1072&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn8UEqphSm34g6QvgdKq8p58=
+CT: text/plain
+CL: 1
+
+0  
+[2020/01/10 15:20:35 833] transport  441  [soc] [0] send ok  237  
+[2020/01/10 15:20:35 856] isr_1conn  1800 ISR_MSG_GRSLT  
+[2020/01/10 15:20:35 856] isr_1conn  1826 0  2  nil  
+[2020/01/10 15:20:35 897] isr_1conn  259  send_ok_num, timer_num, send_average =   5124  3  1708  
+[2020/01/10 15:20:35 897] isr_1conn  262  netperf =   90  
+[2020/01/10 15:20:35 906] isr_1conn  1800 ISR_MSG_GRSLT  
+[2020/01/10 15:20:35 906] isr_1conn  1826 0  2  nil  
+[2020/01/10 15:20:35 923] transport  450  [soc] [0] readable  
+[2020/01/10 15:20:35 923] transport  1446 HTTP/1.1 200 OK
+Content-Length: 120
+X-Par: ver=MSSP+0%2E9&ret=0&uid=d11384938794&rss=5&cver=5%2E0%2E7%2E1072&eps=3&key=0f1Ms6qCi^/hSgCf^mOHj33KYoChge5PmZn5QNghWLygo^HBywnTxKrfeBWruVlgQxUsHK7MgU4BXpC^B0qrynn0XurU7az21V6QvgdKq8p58=
+CT: binary/recresult;charset=utf8
+CE: encrypt/0.2
+CL: 120
+X-Req-Date: 2020/01/10 15:20:35 825
+CL: 120
+X-Res-Date: 2020/01/10 15:20:35 908
+
+À…¶ÀKOKKSEKKSYEKKSYEKKS2KKSYEK
+KS2K
+KSYGYEKKSKZZK4EKKS⁄ìf›o3K
+KSYGYEKKSKK44  
+[2020/01/10 15:20:35 923] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 923] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 923] isr_1conn  361  size =   0  
+[2020/01/10 15:20:35 923] isr_1conn  369  send_ok_num, timer_num, send_average =   5124  4  1281  
+[2020/01/10 15:20:35 924] isr_1conn  372  netperf =   90  
+[2020/01/10 15:20:35 924] isr_1conn  376  start netperf_grs_timer  
+[2020/01/10 15:20:35 924] isr_1conn  386  response  
+[2020/01/10 15:20:35 924] isr_1conn  415  resp_syncid =  30  
+[2020/01/10 15:20:35 924] isr_1conn  578  30  5  2  
+[2020/01/10 15:20:35 924] isr_1conn  583  [session] got last result  
+[2020/01/10 15:20:35 924] isr_1conn  591  time from last audio to last result:  125  .  
+[2020/01/10 15:20:35 924] isr_1conn  592  time from session-begin to session-end:  1250  .  
+[2020/01/10 15:20:35 924] transport  1054 [soc] disconnect   
+[2020/01/10 15:20:35 924] isr_1conn  605  [session] got 1th result  
+[2020/01/10 15:20:35 925] isr_1conn  621  time from first audio to first result:  1250  .  
+[2020/01/10 15:20:35 925] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 925] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 925] isr_1conn  386  response  
+[2020/01/10 15:20:35 925] isr_1conn  415  resp_syncid =  31  
+[2020/01/10 15:20:35 925] transport  1446 01/10 15:20:35 908
+
+0  
+[2020/01/10 15:20:35 925] transport  1196 a_complete_httpmessage  200  
+[2020/01/10 15:20:35 925] isr_1conn  357  [trans] [isr_1conncisr1PdHHBHxPayHGlOaHuPvJ0nNW4XaRPa] readable  
+[2020/01/10 15:20:35 925] isr_1conn  386  response  
+[2020/01/10 15:20:35 925] isr_1conn  415  resp_syncid =  32  
+[2020/01/10 15:20:35 957] isr_1conn  1800 ISR_MSG_GRSLT  
+[2020/01/10 15:20:35 957] isr_1conn  1826 0  5  udata(4515118) 
+[2020/01/10 15:20:36 009] isr_1conn  1829 ISR_MSG_SSE  
+[2020/01/10 15:20:36 009] isr_1conn  1178 isr_1conn session info  

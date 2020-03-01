@@ -1,0 +1,42 @@
+=============================================================
+	iFlyTEK log file
+	Subject :    PlayRecord DLL Logging
+	Created-Time :    18/05/22-11:25:52 718
+	Application: E:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\iFlyIMEGuide.exe 2017-04-27 17:10:14
+	Module:      E:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\PlayRecord.dll 2017-04-27 17:11:06
+	PID: 8680 (0x21e8) Version: 1.0.0.22
+=============================================================
+[18/05/22-11:25:52 718][ERR][Px21e8][Tx21e4] esee_fa_knl::initknl |loadmod(C) error:126[0X7e]
+[18/05/22-11:25:52 765][WAN][Px21e8][Tx21e4] CPlayRecord::CPlayRecord | loadmod(E) error:126[0X7e]
+=============================================================
+	PlayRecord DLL Logging End-Time: 18/05/22-11:26:24 687
+	PID: 8680 (0x21e8)
+=============================================================
+=============================================================
+	iFlyTEK log file
+	Subject :    PlayRecord DLL Logging
+	Created-Time :    18/05/24-17:07:50 609
+	Application: E:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\iFlyIMEGuide.exe 2017-04-27 17:10:14
+	Module:      E:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\PlayRecord.dll 2017-04-27 17:11:06
+	PID: 8348 (0x209c) Version: 1.0.0.22
+=============================================================
+[18/05/24-17:07:50 609][ERR][Px209c][Tx2d7c] esee_fa_knl::initknl |loadmod(C) error:126[0X7e]
+[18/05/24-17:07:50 640][WAN][Px209c][Tx2d7c] CPlayRecord::CPlayRecord | loadmod(E) error:126[0X7e]
+=============================================================
+	PlayRecord DLL Logging End-Time: 18/05/24-17:08:24 093
+	PID: 8348 (0x209c)
+=============================================================
+=============================================================
+	iFlyTEK log file
+	Subject :    PlayRecord DLL Logging
+	Created-Time :    19/08/06-11:33:47 015
+	Application: D:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\iFlyIMEGuide.exe 2017-04-27 17:10:14
+	Module:      D:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\PlayRecord.dll 2017-04-27 17:11:06
+	PID: 6900 (0x1af4) Version: 1.0.0.22
+=============================================================
+[19/08/06-11:33:47 015][ERR][Px1af4][Tx0214] esee_fa_knl::initknl |loadmod(C) error:126[0X7e]
+[19/08/06-11:33:47 078][WAN][Px1af4][Tx0214] CPlayRecord::CPlayRecord | loadmod(D) error:126[0X7e]
+=============================================================
+	PlayRecord DLL Logging End-Time: 19/08/06-11:34:19 234
+	PID: 6900 (0x1af4)
+=============================================================

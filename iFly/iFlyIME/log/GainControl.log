@@ -1,0 +1,45 @@
+=============================================================
+	iFlyTEK log file
+	Subject :    GainControl DLL Logging
+	Created-Time :    18/05/22-11:25:52 671
+	Application: E:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\iFlyIMEGuide.exe 2017-04-27 17:10:14
+	Module:      E:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\GainControl.dll 2017-04-27 17:11:10
+	PID: 8680 (0x21e8) Version: 1.0.0.4
+=============================================================
+[18/05/22-11:25:52 671][WAN][Px21e8][Tx21e4] CGainControl::CGainControl |  get InitSetBoostOn : 1
+[18/05/22-11:25:52 671][WAN][Px21e8][Tx21e4] CGainControl::CGainControl |  get CanTryVolChangeBoostStatus : 1
+[18/05/22-11:25:52 671][WAN][Px21e8][Tx21e4] CGainControl::CGainControl |  get InitSetVol : 26214
+[18/05/22-11:25:52 671][WAN][Px21e8][Tx21e4] CGainControl::CGainControl |  get AutoTuneVolumeEnable : 1
+[18/05/22-11:25:52 671][WAN][Px21e8][Tx21e4] CGainControl::CGainControl |  get ReAdjustVol : 0.800000
+[18/05/22-11:25:52 765][ERR][Px21e8][Tx21e4] ::SetKnlParam() | invalid param:vad_wav_name
+[18/05/22-11:25:59 125][ERR][Px21e8][Tx21e4] input_check::locate_opti_rec() Too short wav data!(0x7002)
+=============================================================
+	iFlyTEK log file
+	Subject :    GainControl DLL Logging
+	Created-Time :    18/05/24-17:07:50 562
+	Application: E:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\iFlyIMEGuide.exe 2017-04-27 17:10:14
+	Module:      E:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\GainControl.dll 2017-04-27 17:11:10
+	PID: 8348 (0x209c) Version: 1.0.0.4
+=============================================================
+[18/05/24-17:07:50 562][WAN][Px209c][Tx2d7c] CGainControl::CGainControl |  get InitSetBoostOn : 1
+[18/05/24-17:07:50 562][WAN][Px209c][Tx2d7c] CGainControl::CGainControl |  get CanTryVolChangeBoostStatus : 1
+[18/05/24-17:07:50 562][WAN][Px209c][Tx2d7c] CGainControl::CGainControl |  get InitSetVol : 26214
+[18/05/24-17:07:50 562][WAN][Px209c][Tx2d7c] CGainControl::CGainControl |  get AutoTuneVolumeEnable : 1
+[18/05/24-17:07:50 562][WAN][Px209c][Tx2d7c] CGainControl::CGainControl |  get ReAdjustVol : 0.800000
+[18/05/24-17:07:50 640][ERR][Px209c][Tx2d7c] ::SetKnlParam() | invalid param:vad_wav_name
+[18/05/24-17:07:57 109][ERR][Px209c][Tx2d7c] input_check::locate_opti_rec() Too short wav data!(0x7002)
+=============================================================
+	iFlyTEK log file
+	Subject :    GainControl DLL Logging
+	Created-Time :    19/08/06-11:33:47 015
+	Application: D:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\iFlyIMEGuide.exe 2017-04-27 17:10:14
+	Module:      D:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\GainControl.dll 2017-04-27 17:11:10
+	PID: 6900 (0x1af4) Version: 1.0.0.4
+=============================================================
+[19/08/06-11:33:47 015][WAN][Px1af4][Tx0214] CGainControl::CGainControl |  get InitSetBoostOn : 1
+[19/08/06-11:33:47 015][WAN][Px1af4][Tx0214] CGainControl::CGainControl |  get CanTryVolChangeBoostStatus : 1
+[19/08/06-11:33:47 015][WAN][Px1af4][Tx0214] CGainControl::CGainControl |  get InitSetVol : 26214
+[19/08/06-11:33:47 015][WAN][Px1af4][Tx0214] CGainControl::CGainControl |  get AutoTuneVolumeEnable : 1
+[19/08/06-11:33:47 015][WAN][Px1af4][Tx0214] CGainControl::CGainControl |  get ReAdjustVol : 0.800000
+[19/08/06-11:33:47 093][ERR][Px1af4][Tx0214] ::SetKnlParam() | invalid param:vad_wav_name
+[19/08/06-11:33:54 937][ERR][Px1af4][Tx0214] input_check::locate_opti_rec() Too short wav data!(0x7002)

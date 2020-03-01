@@ -1,0 +1,835 @@
+============================================================
+Time  2018/05/28 13:24:57 252 
+============================================================
+[2018/05/28 13:24:57 252] isr        28   isr loaded!  
+[2018/05/28 13:24:57 252] isr        48   wifi  
+[2018/05/28 13:24:57 268] isr_1conn  1946 SYS_MSG_LOAD  
+[2018/05/28 13:24:57 268] isr_1conn  1305 onesoc  
+[2018/05/28 13:24:57 268] isr_1conn  1306 ISR_MSG_SSB  
+[2018/05/28 13:24:57 268] isr_1conn  1316 isr  cisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t  268436457  1408347573  
+[2018/05/28 13:24:57 268] isr_1conn  1485 nil  
+[2018/05/28 13:24:57 268] isr_1conn  1562 speex-wb  
+[2018/05/28 13:24:57 268] isr_1conn  1628 once bytes  122  
+[2018/05/28 13:24:57 273] isr_1conn  1662 User set url is   nil  
+[2018/05/28 13:24:57 273] transport  536  paramkvsport is   nil  
+[2018/05/28 13:24:57 273] transport  746  net type:  wifi  
+[2018/05/28 13:24:57 273] transport  747  net operator:  def  
+[2018/05/28 13:24:57 273] transport  748  use proxy:  false  
+[2018/05/28 13:24:57 273] network    80   ipfromenv ,  ipcache  dev.voicecloud.cn  def  42.62.116.35  
+[2018/05/28 13:24:57 273] transport  913  using cached ip:  42.62.116.35  
+[2018/05/28 13:24:57 273] transport  930  try preferred port:  1028  
+[2018/05/28 13:24:57 273] transport  948  ns_i =  nil  
+[2018/05/28 13:24:57 273] transport  1023 [soc] connect   42.62.116.35  1028  
+[2018/05/28 13:24:57 273] isr_1conn  1693 ISR_MSG_AUW  18240  2  
+[2018/05/28 13:24:57 273] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 273] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 273] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 289] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 289] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 304] transport  419  [soc] [0] connected  
+[2018/05/28 13:24:57 304] isr_1conn  1001 send ssb request  
+[2018/05/28 13:24:57 304] isr_1conn  685  using loginid  
+[2018/05/28 13:24:57 304] isr_1conn  710  lver:  nil  
+[2018/05/28 13:24:57 304] isr_1conn  1077 [session] send 1th audio  
+[2018/05/28 13:24:57 304] isr_1conn  1079 totalsz =   1830  
+[2018/05/28 13:24:57 304] isr_1conn  1082 start netperf_fs_timer  
+[2018/05/28 13:24:57 304] transport  1075 build http request.  
+[2018/05/28 13:24:57 304] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=ssb&ssm=1&auf=audio%2FL16%3Brate%3D16000&cver=5%2E0%2E7%2E1072&net%5Ftype=wifi&csid=cisr1P1HHBHcag0OMVFeQHMPp%2D1%2BXWhAC6t&key=0ekT/KgQg8uemNh^0fgWWsamGMPmrlA0cCuHPbOkURI^xzTMirmS8ZG7hz2zpFESPs
+CT: text/params
+CE: gzip,encrypt/0.2
+CL: 160
+
+÷–Â9!cüË•jÁDt €¢YgO,kx˛Pôk‡Q≈1@J≤íãoÛÛ®Ä©ú66>éù‚¢ßΩ&∞«—b…0rò-Íoµ4Î‚(¥´ûOÄ –Ë<+∏»À øT'å|g¢≥ò‘BÆ±-O–66F∆tá\-‡:ó¢∂ÿ≈xà@x8πÔìh{ªÛôÿˆ?òÆ`®?W˙¥Ükn3Søõ  
+[2018/05/28 13:24:57 304] transport  1075 build http request.  
+[2018/05/28 13:24:57 304] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=1&cver=5%2E0%2E7%2E1072&csid=cisr1P1HHBHcag0OMVFeQHMPp%2D1%2BXWhAC6t&key=0ekT/KgQg8uemNh^0fgWWsamGMPmrlA0cCuHPbOkURI^zQsklEZFIT1bhz2zpFESPs
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 1840
+
+Lí|.,ÅŒåååååååÊ_ê$ﬂk…º¿(¸:?ºQ^¢©ê›Ÿ|á-mc~^ —…—©»‘…XW¸∏Ì„gQgÃﬂó%ÔSŒG–·9Y“¶±ﬂﬁY“Rø-â∏8õ8Òjr≥Onµé\ı©26/'u-f!«≥XW¸®È¢-’Vr  
+[2018/05/28 13:24:57 304] transport  441  [soc] [0] send ok  475  
+[2018/05/28 13:24:57 304] transport  441  [soc] [0] send ok  2122  
+[2018/05/28 13:24:57 304] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 320] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 320] isr_1conn  1077 [session] send 2th audio  
+[2018/05/28 13:24:57 320] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 320] transport  1075 build http request.  
+[2018/05/28 13:24:57 320] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&csid=cisr1P1HHBHcag0OMVFeQHMPp%2D1%2BXWhAC6t&key=0ekT/KgQg8uemNh^0fgWWsamGMPmrlA0cCuHPbOkURI^zNre7G7TlT0rhz2zpFESPs
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Ò5kmoö~…r”≠Pù´xW—ÎÁ-∫ÑòAΩ®ˇ·ﬂÙˆI∂Q´âœ´Åy[°EŒß•©»‘	Ù—‚D
+?„XQúÈ
+¢i«BC]vŒ‹€xB É8¡Úû‘C‹ÚJ?í~jJß“tHÒb÷	Æ¶‰—’‰¢°’o	  
+[2018/05/28 13:24:57 320] transport  441  [soc] [0] send ok  409  
+[2018/05/28 13:24:57 320] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 336] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 336] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 312
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&uid=d5488638128&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 320
+
+0  
+[2018/05/28 13:24:57 336] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 336] transport  1305 is_update  true  
+[2018/05/28 13:24:57 336] transport  1307 port updated  1028  
+[2018/05/28 13:24:57 336] transport  1309 switch  1028  
+[2018/05/28 13:24:57 336] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 336] isr_1conn  386  response  
+[2018/05/28 13:24:57 336] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 336] ntp        10   ntp_process enter  
+[2018/05/28 13:24:57 336] ntp        53   ntp delay_rtt=  24  , offset =   1.329  
+[2018/05/28 13:24:57 336] isr_1conn  433  sid =   iat1f1334d7@dx026c0e66dea96f1e00  
+[2018/05/28 13:24:57 336] isr_1conn  443  time cost by session begin command:  32  .  
+[2018/05/28 13:24:57 336] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 336] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 351] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 351] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 320
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 322
+
+0  
+[2018/05/28 13:24:57 351] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 351] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 351] isr_1conn  361  size =   1830  
+[2018/05/28 13:24:57 351] isr_1conn  386  response  
+[2018/05/28 13:24:57 351] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 351] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 351] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 351] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 351] isr_1conn  1077 [session] send 3th audio  
+[2018/05/28 13:24:57 351] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 351] transport  1075 build http request.  
+[2018/05/28 13:24:57 351] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn/weuiqmNJb/6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+˚´d66ù≤FõŒ£®*ïTŒ&™iﬁøMdHI6»% Ö`π…öπ“Gµ`ﬁos:	€l	?ƒ	‹lÿÛnU^HyxeÓRXaiEΩG,V!ø‚"‹Ü∏≈”˝ ı™nˇª4U%‹ÄXAÊS;È€r¯€‘	›H˘§ƒÓ  
+[2018/05/28 13:24:57 351] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 367] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 367] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 334
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 336
+
+0  
+[2018/05/28 13:24:57 367] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 367] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 367] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 367] isr_1conn  386  response  
+[2018/05/28 13:24:57 367] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 367] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 367] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 373] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 389] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 389] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 371
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 373
+
+0  
+[2018/05/28 13:24:57 389] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 389] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 389] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 389] isr_1conn  386  response  
+[2018/05/28 13:24:57 389] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 389] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 389] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 389] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 389] isr_1conn  1077 [session] send 4th audio  
+[2018/05/28 13:24:57 389] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 389] transport  1075 build http request.  
+[2018/05/28 13:24:57 389] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnyBmPwztNz^/6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Åê°¯TWo';Q(Â”Sßv∂«ÄÓÛÖUoéZ—«è˝µ[3	:¶≥∑Øp®tWÉ“i	HÇ.9]´©U\∞X·ıvÀG/äﬂCúA=V€ó.0.ë‡êDŒôx„Z£Éø£¿á	√∞,ìR´  
+[2018/05/28 13:24:57 389] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 405] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 420] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 420] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 436] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 436] isr_1conn  1077 [session] send 5th audio  
+[2018/05/28 13:24:57 436] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 436] transport  1075 build http request.  
+[2018/05/28 13:24:57 436] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnwdZvAXO1P4Z6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+'Ò)“ÏC<Ëÿ€ïwˆˇÿJ¬ÌEÊˇ˜]>‚p¡ˇÖH»  
+[2018/05/28 13:24:57 436] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 452] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 452] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 413
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 414
+
+0  
+[2018/05/28 13:24:57 452] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 452] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 452] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 452] isr_1conn  386  response  
+[2018/05/28 13:24:57 452] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 452] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 453] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 457] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 472] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 472] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 452
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 454
+
+0  
+[2018/05/28 13:24:57 472] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 472] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 472] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 472] isr_1conn  386  response  
+[2018/05/28 13:24:57 472] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 472] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 474] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 474] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 474] isr_1conn  1077 [session] send 6th audio  
+[2018/05/28 13:24:57 474] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 474] transport  1075 build http request.  
+[2018/05/28 13:24:57 474] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn8NjH9bCAen^6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+/VÄ®IDPæ(Ö vh+Ä®VÀ[≠5ï_&ΩDØ
+  
+[2018/05/28 13:24:57 474] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 490] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 490] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 505] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 505] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 494
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 496
+
+0  
+[2018/05/28 13:24:57 505] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 505] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 505] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 505] isr_1conn  386  response  
+[2018/05/28 13:24:57 505] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 505] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 505] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 521] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 521] isr_1conn  1077 [session] send 7th audio  
+[2018/05/28 13:24:57 521] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 521] transport  1075 build http request.  
+[2018/05/28 13:24:57 521] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn/H^NWSqvbv46QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+âMu&U[„ΩÏÓCŸ‰ßûÏ˙\Ω∏ÊﬂÉ∫^º\fºö#ÓRÃX˚Ÿˇk£ÑhËanUZÓÖﬂ¨ºi940´*d0∫‚ÌÌÿJDπ3kt†˛òcJ˛äví∆Ë…´Ö√SÀ~(
+€Ä
+ü9Jcüé  
+[2018/05/28 13:24:57 521] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 521] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 536] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 552] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 552] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 552] isr_1conn  1077 [session] send 8th audio  
+[2018/05/28 13:24:57 552] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 552] transport  1075 build http request.  
+[2018/05/28 13:24:57 552] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn1JrcdCmYDaE6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+<·ª&÷AÊRz¿]Ønv§UY˙˛êâ¢Î∞âg©i ø˝+Ôﬁ0Ω˙œj≤¡yCR+$kŸm;yŸ{F<ÓUZÒË`O1≥£^OäDé7Ú€é˚ïÒb‡ÔÉEŸx@ıiÉBËﬂÿÅ@ΩcŒL∂sPF8∏⁄»)nN  
+[2018/05/28 13:24:57 552] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 568] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 568] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 539
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 541
+
+0  
+[2018/05/28 13:24:57 568] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 568] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 568] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 568] isr_1conn  386  response  
+[2018/05/28 13:24:57 568] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 568] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 574] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 574] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 589] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 589] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 575
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 577
+
+0  
+[2018/05/28 13:24:57 589] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 589] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 589] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 589] isr_1conn  386  response  
+[2018/05/28 13:24:57 589] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 589] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 589] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 605] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 605] isr_1conn  1077 [session] send 9th audio  
+[2018/05/28 13:24:57 605] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 605] transport  1075 build http request.  
+[2018/05/28 13:24:57 605] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn1yxFDfhnHnN6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Ÿx€˛woÕÊD@*¥LÊ0∆Úüé¶!¶∆6÷~Une∏b=&øâhtâA1Îœ£Rÿ|⁄Àtkkõ€@~UZÒ≤†o/ﬂÑÜ %•ﬁ_™∆ÄÔ+s¢Ñ—∫ˆ˚ 8&
+Ø≥\Ztû‚ıÒ¬CP˙€≥Z·:1l0(.  
+[2018/05/28 13:24:57 605] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 605] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 621] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 621] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 636] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 618
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 620
+
+0  
+[2018/05/28 13:24:57 636] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 636] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 636] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 637] isr_1conn  386  response  
+[2018/05/28 13:24:57 637] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 637] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 637] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 646] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 648] isr_1conn  1077 [session] send 10th audio  
+[2018/05/28 13:24:57 648] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 648] transport  1075 build http request.  
+[2018/05/28 13:24:57 648] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn1qGwcjMdC5v6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+ù 6o÷˛úä#uq∂NìV?Ê‰¨è¶Ô=Ù¨†˛Ä∫™YònÑ™ÜOÈnËSRÕÌ[åDƒ¸¢Öﬂ(nUZÁGiènQ¶_ñçøPÚÎ7mº3Cß{£·∑Ÿ…r]≤Q[óåoø\ﬂCÖ”Sç√K:ÿ+ßjx·Zæ  
+[2018/05/28 13:24:57 648] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 656] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 666] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 674] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 674] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 674] isr_1conn  1077 [session] send 11th audio  
+[2018/05/28 13:24:57 674] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 674] transport  1075 build http request.  
+[2018/05/28 13:24:57 674] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn8ORjW3jCZ6/6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+†<Ωï∂·›9k“«˚_å§^Á‡#ƒ<Ùõ¡œï∞wUû∆¯Ïq&à–⁄ñ^*ìRÿEC8ÁEhÇÖÈÌÓUZÒ™cOmkÚä;ÖÚD…ÚŒRœ0õ‹åcñrπd˛}ë∂]Óáé.OT@êCQ{kØòW)x˘~ .  
+[2018/05/28 13:24:57 674] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 690] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 690] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 656
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 658
+
+0  
+[2018/05/28 13:24:57 690] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 690] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 690] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 690] isr_1conn  386  response  
+[2018/05/28 13:24:57 690] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 690] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 690] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 705] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 705] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 705] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 705] isr_1conn  1077 [session] send 12th audio  
+[2018/05/28 13:24:57 705] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 705] transport  1075 build http request.  
+[2018/05/28 13:24:57 705] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn9rIwdENKgf06QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+î√Åz˘…∫ì«C∆¡@)©ú…Õ◊UÂ@ﬁÄƒ´Kh˝'ÓöÉááM8ÙˇâAÃ„R	5IŸÎ8xràho&.UZÒ´–OÈˆ!]Öé`ƒ1AV‹R∏√√<u—v•ádÖ'™.É¶æú°Z«<ˇ3P(QCÎ3kÎ¨Î›{	>  
+[2018/05/28 13:24:57 705] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 705] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 705] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 698
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 699
+
+0  
+[2018/05/28 13:24:57 705] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 705] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 705] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 705] isr_1conn  386  response  
+[2018/05/28 13:24:57 705] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 705] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 721] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 737] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 737] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 737] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 727
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 729
+
+0  
+[2018/05/28 13:24:57 737] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 737] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 737] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 737] isr_1conn  386  response  
+[2018/05/28 13:24:57 737] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 737] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 737] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 752] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 752] isr_1conn  1077 [session] send 13th audio  
+[2018/05/28 13:24:57 752] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 752] transport  1075 build http request.  
+[2018/05/28 13:24:57 752] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn/Lgfe8VQ1zc6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+¿Ÿïè¢Ê.kΩ6?–≥Y≤Ïı-&bÛ;∞n¢‹vË"äXNï¶ÇéqÓqaîÇ£P+Ñl€wË@cHß1ÆUZÒÚ§/=ãÃ6	LÇ≤c≠÷Z¿ﬂﬂuM˘–™ª=8Ë?Íì•¶ì5 Òîk®§á3P	Z[È‹Ê˘4G8-R  
+[2018/05/28 13:24:57 752] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 768] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 774] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 774] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 774] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 767
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 769
+
+0  
+[2018/05/28 13:24:57 774] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 774] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 774] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 774] isr_1conn  386  response  
+[2018/05/28 13:24:57 774] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 774] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 774] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 790] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 790] isr_1conn  1077 [session] send 14th audio  
+[2018/05/28 13:24:57 790] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 790] transport  1075 build http request.  
+[2018/05/28 13:24:57 790] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn9w^vCRLqKFs6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Í‹,9‹,n]]‰·£®w÷ÖŸÚB˚D¨— Ló~≈>ÑI{{xçô?∏uËuüKìQ»›mi-gËß,˘œ#ﬁUZÒÀƒ/'vxk:f/xö¬ïÚÿŸ˛÷U-’XvÆ≤<À∑ã‘‰ñø∑®Ù6	‰£R)ßD¯4IX4#XËxæ  
+[2018/05/28 13:24:57 790] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 805] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 805] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 821] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 836] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 836] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 810
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 812
+
+0  
+[2018/05/28 13:24:57 836] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 836] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 836] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 836] isr_1conn  386  response  
+[2018/05/28 13:24:57 836] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 836] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 836] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 836] isr_1conn  1077 [session] send 15th audio  
+[2018/05/28 13:24:57 836] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 836] transport  1075 build http request.  
+[2018/05/28 13:24:57 836] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn/1yBbpFs5Dw6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Î;‰Ç
+ßã»&:}òG+ÚÚë™ﬂJFÖÜå‘ﬁ9ÿhey˚˚›?ÅØ∫O{VFd3RA»h≠"€´ô;Ô+˛UZÒÚ†°wüMµ÷!~^ƒ¡uﬁÉõ*Àzÿ ™èk$≥]=w≥ §ßAãt#Sª+£H»=ò6Ë∆~  
+[2018/05/28 13:24:57 836] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 836] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 852] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 868] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 868] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 850
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 853
+
+0  
+[2018/05/28 13:24:57 868] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 868] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 868] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 868] isr_1conn  386  response  
+[2018/05/28 13:24:57 868] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 868] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 868] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 874] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 874] isr_1conn  1077 [session] send 16th audio  
+[2018/05/28 13:24:57 874] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 874] transport  1075 build http request.  
+[2018/05/28 13:24:57 874] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn3qN6DpfiBaR6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+©y†∏«ôXùó≤Ê30Èmàv›~åÈ≥ ‰á$ΩÌÜo>Å‚¡π∆çúŒ.Pt¡SR]mÈ†j˘|˛	)mnUZÂÜ o„_7®ÜﬂSã‹ﬂú„uB‚  
+[2018/05/28 13:24:57 874] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 890] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 890] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 905] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 905] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 892
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 894
+
+0  
+[2018/05/28 13:24:57 905] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 905] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 905] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 905] isr_1conn  386  response  
+[2018/05/28 13:24:57 905] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 905] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 905] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 905] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 921] isr_1conn  1077 [session] send 17th audio  
+[2018/05/28 13:24:57 921] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 921] transport  1075 build http request.  
+[2018/05/28 13:24:57 921] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnyMziOflZSse6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+…ß≤Ú©ÀlV+–uk∆Ú>ìﬂùØƒTıp°¸ÒµﬂRÈﬁÖ‚hÂ∞ÍrsR€[ZÎ|ª*”™ÔZ˛UZÒ•«>G˛≈g˙]Æ˚ÀÉ˝Pz)‘™=ÿéõ¸«∞ºˇÅEàòO≥PãÁm¯¬i&„9œ~  
+[2018/05/28 13:24:57 921] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 921] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 937] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 937] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:57 937] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 929
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 931
+
+0  
+[2018/05/28 13:24:57 937] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:57 937] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:57 937] isr_1conn  361  size =   122  
+[2018/05/28 13:24:57 937] isr_1conn  386  response  
+[2018/05/28 13:24:57 937] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:57 937] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:57 937] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 952] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 952] isr_1conn  1077 [session] send 18th audio  
+[2018/05/28 13:24:57 952] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 952] transport  1075 build http request.  
+[2018/05/28 13:24:57 952] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn4UKcJXsRE8g6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+Í{ÇÊSˆ-˙~‰4-™’µÛ?ı-öòÿø@Ï°±™øUg∏,E±çs∏:ÉR	uπAÙ	(ÖŸŸˇÓUZÓËgè1Ó[Ïf¢‰ÅØQÏÂüJ>Èmgæ—–&$´3=x4&è•ˆûn@/CP©Ç˜ÿ›"i”DËÍ-  
+[2018/05/28 13:24:57 952] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:57 968] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 974] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 990] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 990] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:57 990] isr_1conn  1077 [session] send 19th audio  
+[2018/05/28 13:24:57 990] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:57 990] transport  1075 build http request.  
+[2018/05/28 13:24:57 990] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn16lROEBtBTI6QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+ébÒç´‰ôØG?π∞ì¿2 ÃﬂµW√ì•Eìºˆ.¬Ωgç∞Ñ¶1êAìQxÌ¯l	ﬂ3[>UX©‹ıŒÇö§Å—»ÑÍ∏£iõ~˚∑™ﬂ…€w«ÅC‰÷7E∑
+Üß¬√Rﬁ YŒ˘xb˚«  
+[2018/05/28 13:24:57 990] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:58 006] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:58 006] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:57 973
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:57 975
+
+0  
+[2018/05/28 13:24:58 006] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:58 006] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:58 006] isr_1conn  361  size =   122  
+[2018/05/28 13:24:58 006] isr_1conn  386  response  
+[2018/05/28 13:24:58 006] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:58 006] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:58 006] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:58 021] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:58 021] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:58 037] isr_1conn  1693 ISR_MSG_AUW  320  2  
+[2018/05/28 13:24:58 037] isr_1conn  1077 [session] send 20th audio  
+[2018/05/28 13:24:58 037] isr_1conn  1079 totalsz =   122  
+[2018/05/28 13:24:58 037] transport  1075 build http request.  
+[2018/05/28 13:24:58 037] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=2&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn/Iyd7GJI0q36QvgdKq8p58=
+CT: audio/L16;rate=16000
+CE: speex-wb,encrypt/0.2
+CL: 128
+
+ì+¶6J>ñS;Åïa®>˛Í°ÓÛzm¿Ô∏NπDµ¢LÑkuª…9Ü-◊I=ÆÃ‘cP¯c
+Ë|ÈHC≠ÎYﬁUZÊ©ëÔ∑6¨ê“Ôû3N2≥A\ØnMÇM<†≥+/(8ó∂î◊"us∞ªñìQy°`y0ÈŸ°	Ô%Ó  
+[2018/05/28 13:24:58 037] transport  441  [soc] [0] send ok  408  
+[2018/05/28 13:24:58 037] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:58 037] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:58 30
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:58 32
+
+0  
+[2018/05/28 13:24:58 037] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:58 037] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:58 037] isr_1conn  361  size =   122  
+[2018/05/28 13:24:58 037] isr_1conn  386  response  
+[2018/05/28 13:24:58 037] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:58 037] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:58 053] isr_1conn  1693 ISR_MSG_AUW  1  4  
+[2018/05/28 13:24:58 053] isr_1conn  1800 ISR_MSG_GRSLT  
+[2018/05/28 13:24:58 053] isr_1conn  1826 0  2  nil  
+[2018/05/28 13:24:58 053] isr_1conn  1077 [session] send 21th audio  
+[2018/05/28 13:24:58 053] isr_1conn  1079 totalsz =   0  
+[2018/05/28 13:24:58 053] transport  1075 build http request.  
+[2018/05/28 13:24:58 053] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=auw&aus=4&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn6b3Nn0gM/jN6QvgdKq8p58=
+CT: text/plain
+CL: 1
+
+0  
+[2018/05/28 13:24:58 053] isr_1conn  1089 [session] send last audio!  
+[2018/05/28 13:24:58 053] isr_1conn  1101 send rslt request  
+[2018/05/28 13:24:58 053] transport  1075 build http request.  
+[2018/05/28 13:24:58 053] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=grs&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnw44SFkd5mRE6QvgdKq8p58=
+CT: text/plain
+CL: 1
+
+0  
+[2018/05/28 13:24:58 053] transport  441  [soc] [0] send ok  243  
+[2018/05/28 13:24:58 053] transport  441  [soc] [0] send ok  237  
+[2018/05/28 13:24:58 106] isr_1conn  273  send_ok_num, timer_num, send_average =   4026  2  2013  
+[2018/05/28 13:24:58 106] isr_1conn  276  netperf =   90  
+[2018/05/28 13:24:58 106] isr_1conn  277  start netperf_other_timer  
+[2018/05/28 13:24:58 106] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:58 106] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:24:58 52
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&eps=1&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:58 54
+
+0  
+[2018/05/28 13:24:58 106] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:58 106] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:58 106] isr_1conn  361  size =   122  
+[2018/05/28 13:24:58 106] isr_1conn  386  response  
+[2018/05/28 13:24:58 106] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:58 106] isr_1conn  479  0  2  2  1  
+[2018/05/28 13:24:58 106] isr_1conn  1101 send rslt request  
+[2018/05/28 13:24:58 106] transport  1075 build http request.  
+[2018/05/28 13:24:58 106] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=grs&cver=5%2E0%2E7%2E1072&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn^mT2GxEzpuA6QvgdKq8p58=
+CT: text/plain
+CL: 1
+
+0  
+[2018/05/28 13:24:58 106] transport  441  [soc] [0] send ok  237  
+[2018/05/28 13:24:58 106] isr_1conn  1800 ISR_MSG_GRSLT  
+[2018/05/28 13:24:58 106] isr_1conn  1826 0  2  nil  
+[2018/05/28 13:24:58 169] isr_1conn  1800 ISR_MSG_GRSLT  
+[2018/05/28 13:24:58 169] isr_1conn  1826 0  2  nil  
+[2018/05/28 13:24:58 169] transport  450  [soc] [0] readable  
+[2018/05/28 13:24:58 169] transport  1446 HTTP/1.1 200 OK
+Content-Length: 88
+X-Req-Date: 2018/05/28 13:24:58 64
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&rss=0&eps=3&rcs=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn8irsDHtuaHn6QvgdKq8p58=
+CE: encrypt/0.2
+CT: binary/recresult;charset=utf8
+CL: 88
+Content-Length: 88
+X-Res-Date: 2018/05/28 13:24:58 143
+
+¸V¶î≈bÛBKKSEKKSYEKKSYEKKS2KKSXEK
+KS2K
+KSYGYEKKSKåÊÃåÊﬁK44Ã÷˙'Ä*3HTTP/1.1 200 OK
+Content-Length: 88
+X-Req-Date: 2018/05/28 13:24:58 143
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&rss=5&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynn4ONsu/TuvMh6QvgdKq8p58=
+CE: encrypt/0.2
+CT: binary/recresult;charset=utf8
+CL: 88
+Content-Length: 88
+X-Res-Date: 2018/05/28 13:24:58 145
+
+Põ˙≤≈	áKKSEKKSYEKKSYEKKS2KKSYEK
+KS2K
+KSYGYEKKSKäÈÎK44  
+[2018/05/28 13:24:58 169] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:58 169] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:58 169] isr_1conn  361  size =   0  
+[2018/05/28 13:24:58 169] isr_1conn  369  send_ok_num, timer_num, send_average =   4148  3  1382  
+[2018/05/28 13:24:58 169] isr_1conn  372  netperf =   90  
+[2018/05/28 13:24:58 170] isr_1conn  376  start netperf_grs_timer  
+[2018/05/28 13:24:58 170] isr_1conn  386  response  
+[2018/05/28 13:24:58 170] isr_1conn  415  resp_syncid =  1  
+[2018/05/28 13:24:58 170] isr_1conn  578  1  0  2  
+[2018/05/28 13:24:58 170] isr_1conn  605  [session] got 1th result  
+[2018/05/28 13:24:58 170] isr_1conn  621  time from first audio to first result:  875  .  
+[2018/05/28 13:24:58 170] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:58 170] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:58 170] isr_1conn  386  response  
+[2018/05/28 13:24:58 170] isr_1conn  415  resp_syncid =  2  
+[2018/05/28 13:24:58 170] isr_1conn  578  2  5  2  
+[2018/05/28 13:24:58 170] isr_1conn  583  [session] got last result  
+[2018/05/28 13:24:58 170] isr_1conn  591  time from last audio to last result:  125  .  
+[2018/05/28 13:24:58 171] isr_1conn  592  time from session-begin to session-end:  875  .  
+[2018/05/28 13:24:58 171] transport  1054 [soc] disconnect   
+[2018/05/28 13:24:58 171] isr_1conn  605  [session] got 2th result  
+[2018/05/28 13:24:58 171] transport  1446 %2E0%2E7%2E1072&rss=2&key=0fgmBSmaybFv1At7KhyQvW7y1yIN^kn^TdZMh5moANGFs^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:24:58 147
+
+0  
+[2018/05/28 13:24:58 171] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:24:58 171] isr_1conn  357  [trans] [isr_1conncisr1P1HHBHcag0OMVFeQHMPp-1+XWhAC6t] readable  
+[2018/05/28 13:24:58 171] isr_1conn  386  response  
+[2018/05/28 13:24:58 171] isr_1conn  415  resp_syncid =  0  
+[2018/05/28 13:24:58 219] isr_1conn  1800 ISR_MSG_GRSLT  
+[2018/05/28 13:24:58 219] isr_1conn  1826 0  0  udata(437aed8) 
+[2018/05/28 13:24:58 270] isr_1conn  1800 ISR_MSG_GRSLT  
+[2018/05/28 13:24:58 270] isr_1conn  1826 0  5  udata(437af38) 
+[2018/05/28 13:24:58 321] isr_1conn  1829 ISR_MSG_SSE  
+[2018/05/28 13:24:58 321] isr_1conn  1178 isr_1conn session info  

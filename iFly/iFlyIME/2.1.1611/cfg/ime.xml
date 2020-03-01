@@ -1,0 +1,21 @@
+<config>
+<layout>26key</layout>
+<method>pinyin+english</method>
+<fuzzykey>0</fuzzykey>
+<fuzzypy>0</fuzzypy>
+<mainsym>e:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\dict\pinyin.sym</mainsym>
+<mainfst>e:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\dict\core_dict.lit</mainfst>
+<auximethod>english</auximethod>
+<auxifst>e:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\dict\english.lit</auxifst>
+<pymap>e:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\dict\pinyin.map</pymap>
+<enmap>e:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\dict\english.map</enmap>
+<corr>e:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\dict\syll_corr.dat</corr>
+<stmap>e:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\dict\stroke.map</stmap>
+<cphrase>e:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\dict\cphrase.jet</cphrase>
+<nccfst>e:\Program Files (x86)\iFly Info Tek\iFlyIME\2.1.1611\dict\core_dict_nc.lit</nccfst>
+<clsfst>C:\Users\1\AppData\Roaming\..\LocalLow\iFly Info Tek\iFlyIME\dict\cate</clsfst>
+<useadpt>1</useadpt>
+<adptfst>C:\Users\1\AppData\Roaming\..\LocalLow\iFly Info Tek\iFlyIME\key_adpt.lit</adptfst>
+<hotfst>C:\Users\1\AppData\Roaming\..\LocalLow\iFly Info Tek\iFlyIME\hotword.lit</hotfst>
+<topword>C:\Users\1\AppData\Roaming\..\LocalLow\iFly Info Tek\iFlyIME\top_word.lit</topword>
+</config>

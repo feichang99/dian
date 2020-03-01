@@ -1,0 +1,167 @@
+============================================================
+Time  2018/05/22 11:32:46 959 
+============================================================
+[2018/05/22 11:32:46 959] legacyuup  277  SYS_MSG_LOAD  
+[2018/05/22 11:32:46 959] legacyuup  190  UUP_MSG_START  
+[2018/05/22 11:32:46 959] legacyuup  192  legacyuup  legacyuup  268436457  1408347575  
+[2018/05/22 11:32:46 959] legacyuup  235  User set url is   nil  
+[2018/05/22 11:32:46 959] transport  536  paramkvsport is   nil  
+[2018/05/22 11:32:46 959] transport  746  net type:  wifi  
+[2018/05/22 11:32:46 959] transport  747  net operator:  def  
+[2018/05/22 11:32:46 959] transport  748  use proxy:  false  
+[2018/05/22 11:32:46 959] legacyuup  252  not login!  
+[2018/05/22 11:32:55 552] legacyuup  266  UUP_MSG_LGI_RESULT  
+[2018/05/22 11:32:55 552] legacyuup  148  [session] send uup request  
+[2018/05/22 11:32:55 552] network    80   ipfromenv ,  ipcache  dev.voicecloud.cn  def  42.62.116.34  
+[2018/05/22 11:32:55 552] transport  913  using cached ip:  42.62.116.34  
+[2018/05/22 11:32:55 552] transport  930  try preferred port:  nil  
+[2018/05/22 11:32:55 552] transport  948  ns_i =  nil  
+[2018/05/22 11:32:55 552] transport  1023 [soc] connect   42.62.116.34  1028  
+[2018/05/22 11:32:55 598] transport  419  [soc] [0] connected  
+[2018/05/22 11:32:55 598] transport  1075 build http request.  
+[2018/05/22 11:32:55 598] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: uup
+X-Par: ver=MSSP+0%2E9&sub=uup&cmd=uup&cver=5%2E0%2E7%2E1072&key=0fP3M1fTGMjmEG6sME2Rc7855UEwgR58jc8jPlJ7LAs2c^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: multipart/mixed;boundary=--
+CL: 743
+
+----
+CL:272
+CT:binary/userdata+contact
+CE:gzip,encrypt/0.2
+
+‰.S7fRŸH+Ô
+Ê$tòÊô,nn,µ0!Â–<!,‘¸FMÅô®âYö∆	˜)÷◊˝%S°ﬂ)üW+)§Á
+•vñ€◊ôfÁ~å”•{ Ws~‰πÙ$®Õ{°π†ƒô—I	}	ùâŒ*^Wÿ˛’î/‚È~íŒù\=FSQ«†rù=W˙¸ÈD÷}Ocq6gÇÜ0‰Hk\—ÿŒFè0€T±ÕòVµEf^B‹D‰9g®åõ‚@•Øz<æU€f“˘—[‘ÓLbíºMü˚nXf˙{0˘*|¬xò<«?œ$„ÈhHZ”b–÷°6U%X
+†¡ñÅn¥Èed†â≤<  
+[2018/05/22 11:32:55 598] transport  441  [soc] [0] send ok  998  
+[2018/05/22 11:32:55 630] transport  450  [soc] [0] readable  
+[2018/05/22 11:32:55 630] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/22 11:32:55 892
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&key=0fAAU2iVKBULfB/3U0qPQDwl3bLB4zG5lxOFHzjmmAnzk^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/22 11:32:55 895
+
+0  
+[2018/05/22 11:32:55 630] transport  1196 a_complete_httpmessage  200  
+[2018/05/22 11:32:55 630] transport  1305 is_update  true  
+[2018/05/22 11:32:55 630] transport  1307 port updated  1028  
+[2018/05/22 11:32:55 630] transport  1309 switch  1028  
+[2018/05/22 11:32:55 630] legacyuup  50   [trans] [id = uuplegacyuup] readable  
+[2018/05/22 11:32:55 630] transport  1054 [soc] disconnect   
+[2018/05/22 11:32:55 630] legacyuup  58   uup ok!  
+[2018/05/22 11:32:55 630] legacyuup  286  SYS_MSG_UNLOAD  
+============================================================
+Time  2018/05/23 19:23:50 704 
+============================================================
+[2018/05/23 19:23:50 720] legacyuup  277  SYS_MSG_LOAD  
+[2018/05/23 19:23:50 720] legacyuup  190  UUP_MSG_START  
+[2018/05/23 19:23:50 720] legacyuup  192  legacyuup  legacyuup  268436457  1408347575  
+[2018/05/23 19:23:50 720] legacyuup  235  User set url is   nil  
+[2018/05/23 19:23:50 720] transport  536  paramkvsport is   nil  
+[2018/05/23 19:23:50 720] transport  746  net type:  wifi  
+[2018/05/23 19:23:50 720] transport  747  net operator:  def  
+[2018/05/23 19:23:50 720] transport  748  use proxy:  false  
+[2018/05/23 19:23:50 720] legacyuup  252  not login!  
+[2018/05/23 19:23:50 779] legacyuup  266  UUP_MSG_LGI_RESULT  
+[2018/05/23 19:23:50 779] legacyuup  148  [session] send uup request  
+[2018/05/23 19:23:50 780] network    80   ipfromenv ,  ipcache  dev.voicecloud.cn  def  42.62.116.35  
+[2018/05/23 19:23:50 780] transport  913  using cached ip:  42.62.116.35  
+[2018/05/23 19:23:50 780] transport  930  try preferred port:  nil  
+[2018/05/23 19:23:50 780] transport  948  ns_i =  nil  
+[2018/05/23 19:23:50 780] transport  1023 [soc] connect   42.62.116.35  1028  
+[2018/05/23 19:23:50 813] transport  419  [soc] [0] connected  
+[2018/05/23 19:23:50 813] transport  1075 build http request.  
+[2018/05/23 19:23:50 813] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: uup
+X-Par: ver=MSSP+0%2E9&sub=uup&cmd=uup&cver=5%2E0%2E7%2E1072&key=0ffbKj^7wESmNCwglZ1l8hJ9ruwRq5E28i2yPq^NGrwI0^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: multipart/mixed;boundary=--
+CL: 759
+
+----
+CL:264
+CT:binary/userdata+contact
+CE:gzip,encrypt/0.2
+
+9«åƒVòÎi
+Ê$t·+T‚¿ƒ‰p)1p-Ôq‡`ÔMˆ6Ú€Øàà´IﬁøR˝  
+[2018/05/23 19:23:50 813] transport  441  [soc] [0] send ok  1014  
+[2018/05/23 19:23:50 846] transport  450  [soc] [0] readable  
+[2018/05/23 19:23:50 846] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/23 19:23:52 970
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&key=0fm/Ng84bpa0siTj5YHDdDboHNoKdjw6ewY1UMUwaRaEw^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/23 19:23:52 973
+
+0  
+[2018/05/23 19:23:50 846] transport  1196 a_complete_httpmessage  200  
+[2018/05/23 19:23:50 846] transport  1305 is_update  true  
+[2018/05/23 19:23:50 846] transport  1307 port updated  1028  
+[2018/05/23 19:23:50 846] transport  1309 switch  1028  
+[2018/05/23 19:23:50 846] legacyuup  50   [trans] [id = uuplegacyuup] readable  
+[2018/05/23 19:23:50 846] transport  1054 [soc] disconnect   
+[2018/05/23 19:23:50 846] legacyuup  58   uup ok!  
+[2018/05/23 19:23:50 846] legacyuup  286  SYS_MSG_UNLOAD  
+============================================================
+Time  2018/05/28 13:22:03 049 
+============================================================
+[2018/05/28 13:22:03 065] legacyuup  277  SYS_MSG_LOAD  
+[2018/05/28 13:22:03 065] legacyuup  190  UUP_MSG_START  
+[2018/05/28 13:22:03 065] legacyuup  192  legacyuup  legacyuup  268436457  1408347575  
+[2018/05/28 13:22:03 065] legacyuup  235  User set url is   nil  
+[2018/05/28 13:22:03 065] transport  536  paramkvsport is   nil  
+[2018/05/28 13:22:03 065] transport  746  net type:  wifi  
+[2018/05/28 13:22:03 065] transport  747  net operator:  def  
+[2018/05/28 13:22:03 065] transport  748  use proxy:  false  
+[2018/05/28 13:22:03 065] legacyuup  252  not login!  
+[2018/05/28 13:22:03 165] legacyuup  266  UUP_MSG_LGI_RESULT  
+[2018/05/28 13:22:03 165] legacyuup  148  [session] send uup request  
+[2018/05/28 13:22:03 165] network    80   ipfromenv ,  ipcache  dev.voicecloud.cn  def  42.62.116.35  
+[2018/05/28 13:22:03 165] transport  913  using cached ip:  42.62.116.35  
+[2018/05/28 13:22:03 165] transport  930  try preferred port:  nil  
+[2018/05/28 13:22:03 165] transport  948  ns_i =  nil  
+[2018/05/28 13:22:03 165] transport  1023 [soc] connect   42.62.116.35  1028  
+[2018/05/28 13:22:03 219] transport  419  [soc] [0] connected  
+[2018/05/28 13:22:03 219] transport  1075 build http request.  
+[2018/05/28 13:22:03 219] transport  1177 POST /msp.do HTTP/1.1
+X-Sub: uup
+X-Par: ver=MSSP+0%2E9&sub=uup&cmd=uup&cver=5%2E0%2E7%2E1072&key=0fWlxTEaJ255DlBCFq55iN7kroM17jch1ZFi639tbxVoo^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: multipart/mixed;boundary=--
+CL: 855
+
+----
+CL:384
+CT:binary/userdata+contact
+CE:gzip,encrypt/0.2
+
+…Nn≥f&⁄¯˜=
+fUh‚+Ñ«êtπìã$N_lå¶‘(ø≈|@“rÈ.ÅVˆéq˛Õåw
+p≠™ìøxA¸S¯∫ˇTˆ‰ÅNÇ8É7ä‚sæ˘ú E»v,_ÄÈÖ⁄.”´ÿ$Í˜<˙ö¬∑5ó%hﬁ∑^Í˙ÇÔL≈ÕT——}ˇ¡°’(•q1–‡.>≠º
+>>’Cêf˛e54ëı`hœËe7óøK6ñ~ÏÇI.3ó˚Ùn
+Ãíy—Iû’£—´,◊Î›·ºló]RVıËk„qÜ·Ω‡Ã;£NÁ ﬁıØf“ÊÃıv˘’«Ñàx]Œúra”M‹'•9näe!ì%<ëDLâd¥’MÖÙÊ#pX¬Ñma+ÂÉn÷πgä®ú_=íh ©√‡n:4îv‹,Ôìn¿]ß5jÍmóŸ¬H7≈fÀ%gH¥Uáf+¶%3£*i ØÚâ∆´6bóIë'hxîgmπ7[  
+[2018/05/28 13:22:03 219] transport  441  [soc] [0] send ok  1110  
+[2018/05/28 13:22:03 234] transport  450  [soc] [0] readable  
+[2018/05/28 13:22:03 234] transport  1446 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2018/05/28 13:22:04 559
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E7%2E1072&key=0f8DS^ccSCCablfanBfqpiUgoDHfRzsDpCKyTxhH11H^k^HBywnTxKrWB^b5BikTzhJrpps^RLGAnpC^B0qrynnxmhs5T9hkCh6QvgdKq8p58=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2018/05/28 13:22:04 561
+
+0  
+[2018/05/28 13:22:03 234] transport  1196 a_complete_httpmessage  200  
+[2018/05/28 13:22:03 234] transport  1305 is_update  true  
+[2018/05/28 13:22:03 234] transport  1307 port updated  1028  
+[2018/05/28 13:22:03 234] transport  1309 switch  1028  
+[2018/05/28 13:22:03 234] legacyuup  50   [trans] [id = uuplegacyuup] readable  
+[2018/05/28 13:22:03 234] transport  1054 [soc] disconnect   
+[2018/05/28 13:22:03 234] legacyuup  58   uup ok!  
+[2018/05/28 13:22:03 234] legacyuup  286  SYS_MSG_UNLOAD  
